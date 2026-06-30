@@ -689,6 +689,77 @@
       .manifesto-quote { font-size: 17px; }
     }
 
+    /* ── BURGER BUTTON ── */
+    .nav-burger {
+      display: none;
+      flex-direction: column; justify-content: center; align-items: center;
+      gap: 5px; width: 36px; height: 36px;
+      background: none; border: none; cursor: pointer; padding: 4px;
+      z-index: 200;
+    }
+    .nav-burger span {
+      display: block; width: 22px; height: 2px;
+      background: var(--text); border-radius: 2px;
+      transition: transform 0.3s cubic-bezier(0.76,0,0.24,1), opacity 0.2s;
+      transform-origin: center;
+    }
+    .nav-burger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav-burger.open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+    .nav-burger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    @media (max-width: 900px) { .nav-burger { display: flex; } }
+
+    /* ── MOBILE MENU OVERLAY ── */
+    #mobile-menu {
+      position: fixed; inset: 0; z-index: 150;
+      background: rgba(7,8,15,0.97);
+      backdrop-filter: blur(20px);
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      gap: 8px;
+      opacity: 0; pointer-events: none;
+      transition: opacity 0.3s cubic-bezier(0.16,1,0.3,1);
+    }
+    #mobile-menu.open { opacity: 1; pointer-events: all; }
+    .mobile-nav-link {
+      font-family: 'Space Grotesk', 'Inter', sans-serif;
+      font-size: clamp(28px, 8vw, 44px); font-weight: 700;
+      letter-spacing: -1px; color: var(--muted);
+      text-decoration: none;
+      transition: color 0.2s;
+      padding: 10px 0;
+      opacity: 0; transform: translateY(20px);
+      transition: color 0.2s, opacity 0.35s cubic-bezier(0.16,1,0.3,1), transform 0.35s cubic-bezier(0.16,1,0.3,1);
+    }
+    #mobile-menu.open .mobile-nav-link { opacity: 1; transform: none; }
+    #mobile-menu.open .mobile-nav-link:nth-child(1) { transition-delay: 0.05s; }
+    #mobile-menu.open .mobile-nav-link:nth-child(2) { transition-delay: 0.10s; }
+    #mobile-menu.open .mobile-nav-link:nth-child(3) { transition-delay: 0.15s; }
+    #mobile-menu.open .mobile-nav-link:nth-child(4) { transition-delay: 0.20s; }
+    .mobile-nav-link:hover { color: var(--text); }
+    .mobile-menu-cta {
+      margin-top: 20px;
+      background: linear-gradient(135deg, var(--blue), var(--purple));
+      color: #fff; padding: 14px 36px; border-radius: 10px;
+      font-size: 16px; font-weight: 700; text-decoration: none;
+      opacity: 0; transform: translateY(20px);
+      transition: opacity 0.35s 0.25s cubic-bezier(0.16,1,0.3,1), transform 0.35s 0.25s cubic-bezier(0.16,1,0.3,1);
+    }
+    #mobile-menu.open .mobile-menu-cta { opacity: 1; transform: none; }
+    .mobile-menu-line {
+      width: 40px; height: 1px;
+      background: linear-gradient(90deg, transparent, var(--border2), transparent);
+      margin: 8px 0;
+      opacity: 0;
+      transition: opacity 0.3s 0.22s;
+    }
+    #mobile-menu.open .mobile-menu-line { opacity: 1; }
+
+    /* ── PERFORMANCE ── */
+    #nav-wipe { will-change: clip-path; }
+    [data-reveal] { will-change: opacity, transform; }
+    .particle { will-change: transform, opacity; }
+
     /* ── AGE PILL ── */
     .age-pill {
       display: inline-block;
@@ -1109,7 +1180,20 @@
     <li><a href="#contacto">Contacto</a></li>
   </ul>
   <a href="#contacto" class="nav-cta">Hablemos →</a>
+  <button class="nav-burger" id="nav-burger" aria-label="Abrir menú">
+    <span></span><span></span><span></span>
+  </button>
 </nav>
+
+<!-- MOBILE MENU -->
+<div id="mobile-menu" role="dialog" aria-label="Menú de navegación">
+  <a href="#nosotros"  class="mobile-nav-link">Mi historia</a>
+  <a href="#servicios" class="mobile-nav-link">Lo que hago</a>
+  <a href="#agencia"   class="mobile-nav-link">Mi agencia</a>
+  <div class="mobile-menu-line"></div>
+  <a href="#contacto"  class="mobile-nav-link">Contacto</a>
+  <a href="#contacto"  class="mobile-menu-cta">Hablemos →</a>
+</div>
 
 <!-- HERO -->
 <section id="hero" style="padding-top:120px;padding-bottom:80px;">
@@ -1525,13 +1609,79 @@
     }, 2900);
   })();
 
+  // ── FULL-SCREEN NAV WIPE (shared vars) ──
+  const wipe      = document.getElementById('nav-wipe');
+  const wipeLabel = document.getElementById('nav-wipe-label');
+  let wiping = false;
+  const sectionNames = {
+    nosotros:  'Mi historia',
+    servicios: 'Lo que hago',
+    agencia:   'O.N.E Agency',
+    contacto:  'Hablemos'
+  };
+
+  // ── MOBILE BURGER MENU ──
+  (function() {
+    const burger = document.getElementById('nav-burger');
+    const menu   = document.getElementById('mobile-menu');
+    const body   = document.body;
+    if (!burger || !menu) return;
+
+    function openMenu() {
+      burger.classList.add('open');
+      menu.classList.add('open');
+      body.style.overflow = 'hidden';
+      burger.setAttribute('aria-label', 'Cerrar menú');
+    }
+    function closeMenu() {
+      burger.classList.remove('open');
+      menu.classList.remove('open');
+      body.style.overflow = '';
+      burger.setAttribute('aria-label', 'Abrir menú');
+    }
+
+    burger.addEventListener('click', () => {
+      burger.classList.contains('open') ? closeMenu() : openMenu();
+    });
+
+    // Mobile nav links — same wipe transition as desktop
+    menu.querySelectorAll('.mobile-nav-link, .mobile-menu-cta').forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const href    = this.getAttribute('href');
+        const target  = document.querySelector(href);
+        const section = href.replace('#', '');
+        const cx = window.innerWidth / 2;
+        const cy = window.innerHeight / 2;
+
+        wipe.style.setProperty('--cx', cx + 'px');
+        wipe.style.setProperty('--cy', cy + 'px');
+        wipeLabel.textContent = sectionNames[section] || '';
+
+        closeMenu();
+        wipe.classList.remove('wipe-out');
+        wipe.classList.add('wipe-in');
+
+        setTimeout(() => {
+          if (target) target.scrollIntoView({ behavior: 'instant' });
+          wipe.classList.remove('wipe-in');
+          wipe.classList.add('wipe-out');
+          wipe.addEventListener('transitionend', () => {
+            wipe.classList.remove('wipe-out');
+          }, { once: true });
+        }, 500);
+      });
+    });
+  })();
+
   // ── HERO NEURAL NETWORK CANVAS ──
   (function() {
     const canvas = document.getElementById('hero-canvas');
     if (!canvas) return;
     const ctx = canvas.getContext('2d');
     let W, H, nodes = [];
-    const COUNT = 55, MAX_DIST = 160;
+    const isMobile = window.innerWidth < 768;
+    const COUNT = isMobile ? 28 : 55, MAX_DIST = isMobile ? 120 : 160;
     const COLORS = ['rgba(37,99,235,NODE)', 'rgba(99,102,241,NODE)', 'rgba(96,165,250,NODE)'];
 
     function resize() {
@@ -1642,17 +1792,21 @@
     })(start);
   }
 
-  // ── GLOW FOLLOWS MOUSE ──
+  // ── GLOW FOLLOWS MOUSE (desktop only) ──
   const glow = document.querySelector('.glow');
-  let mx = 0, my = 0;
-  document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; }, { passive: true });
-  (function loopGlow() {
-    if (glow) { glow.style.left = (mx - 350) + 'px'; glow.style.top = (my - 350) + 'px'; glow.style.position = 'fixed'; }
-    requestAnimationFrame(loopGlow);
-  })();
+  const isTouch = window.matchMedia('(hover: none)').matches;
+  if (!isTouch) {
+    let mx = 0, my = 0;
+    document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; }, { passive: true });
+    (function loopGlow() {
+      if (glow) { glow.style.left = (mx - 350) + 'px'; glow.style.top = (my - 350) + 'px'; glow.style.position = 'fixed'; }
+      requestAnimationFrame(loopGlow);
+    })();
+  }
 
   // ── FLOATING PARTICLES ──
   const pColors = ['rgba(99,102,241,0.6)','rgba(37,99,235,0.6)','rgba(165,180,252,0.5)','rgba(96,165,250,0.5)'];
+  const isMobileParticles = window.innerWidth < 768;
   function spawnParticle() {
     const p = document.createElement('div');
     p.className = 'particle';
@@ -1662,8 +1816,10 @@
     document.body.appendChild(p);
     setTimeout(() => p.remove(), (dur + delay) * 1000);
   }
-  for (let i = 0; i < 18; i++) spawnParticle();
-  setInterval(spawnParticle, 3000);
+  const initParticles = isMobileParticles ? 8 : 18;
+  const intervalMs    = isMobileParticles ? 5000 : 3000;
+  for (let i = 0; i < initParticles; i++) spawnParticle();
+  setInterval(spawnParticle, intervalMs);
 
   // ── NAV ACTIVE LINK ──
   const navLinks = document.querySelectorAll('.nav-links a');
@@ -1688,18 +1844,7 @@
     }, { threshold: 0.4 }).observe(s);
   });
 
-  // ── FULL-SCREEN NAV TRANSITION ──
-  const wipe      = document.getElementById('nav-wipe');
-  const wipeLabel = document.getElementById('nav-wipe-label');
-  let wiping = false;
-
-  const sectionNames = {
-    nosotros:  'Mi historia',
-    servicios: 'Lo que hago',
-    agencia:   'O.N.E Agency',
-    contacto:  'Hablemos'
-  };
-
+  // ── FULL-SCREEN NAV TRANSITION (desktop links) ──
   document.querySelectorAll('.nav-links a').forEach(link => {
     link.addEventListener('click', function(e) {
       e.preventDefault();
