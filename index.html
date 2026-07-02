@@ -552,6 +552,11 @@
       .origen-img-wrap { max-width: 420px; margin: 0 auto; width: 100%; }
       .origen-text h2 { font-size: 26px; }
     }
+    @media (max-width: 600px) {
+      /* Foto contenida en móvil: recorte 4/5 centrado en la cara, menos scroll */
+      .origen-img-wrap { max-width: 300px; }
+      .origen-img { aspect-ratio: 4/5; object-fit: cover; object-position: 50% 38%; }
+    }
 
     /* ── GRADIENT LINES ── */
     .gradient-line {
@@ -647,6 +652,10 @@
       .manifesto-quote { font-size: clamp(18px, 4vw, 28px); padding: 0 8px; }
       .services-grid { grid-template-columns: 1fr; }
       .about-inner { grid-template-columns: 1fr; gap: 40px; }
+      /* Foto de Mi historia más compacta en móvil: cuadrada y centrada */
+      .about-img-wrap { max-width: 300px; margin: 0 auto; width: 100%; }
+      .about-img { aspect-ratio: 1/1; height: auto; object-position: 50% 25%; }
+      .about-floating { bottom: 12px; left: 12px; right: 12px; padding: 10px 14px; }
       .about-social-row { flex-wrap: wrap; }
       .cta-inner { padding: 48px 28px; }
       .cta-perks { gap: 16px; }
@@ -1318,25 +1327,6 @@
   </div>
 </section>
 
-<!-- ORIGIN STORY: ELECTRICISTA -->
-<section id="origen">
-  <div class="origen-inner">
-    <div class="origen-img-wrap" data-reveal="left">
-      <img src="assets/electricista.jpg"
-           srcset="assets/electricista-480.jpg 480w, assets/electricista.jpg 900w"
-           sizes="(max-width: 860px) 88vw, 440px"
-           alt="Ángel trabajando de electricista en la obra"
-           class="origen-img" width="900" height="1601" loading="lazy" decoding="async" />
-    </div>
-    <div class="origen-text" data-reveal="right">
-      <h2>Desde los 12 años, electricista.</h2>
-      <p>Cada verano, jornada de 6 AM a 3 PM. Lunes a viernes. He sudado dinero de verdad.</p>
-      <p><strong>Sé qué vale ganar un euro.</strong> Sé qué cuesta el tiempo. Sé qué significa elegir entre dinero y futuro.</p>
-      <p class="origen-punch">Por eso construyo automatización: para que otros no tengan que hacer esa elección.</p>
-    </div>
-  </div>
-</section>
-
 <!-- MANIFIESTO -->
 <section id="manifiesto">
   <div class="section-inner manifesto-inner">
@@ -1550,6 +1540,25 @@
           </a>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- ORIGEN: ELECTRICISTA -->
+<section id="origen">
+  <div class="origen-inner">
+    <div class="origen-img-wrap" data-reveal="left">
+      <img src="assets/electricista.jpg"
+           srcset="assets/electricista-480.jpg 480w, assets/electricista-640.jpg 640w, assets/electricista.jpg 900w"
+           sizes="(max-width: 600px) 300px, (max-width: 860px) 88vw, 440px"
+           alt="Ángel trabajando de electricista en la obra"
+           class="origen-img" width="900" height="1601" loading="lazy" decoding="async" />
+    </div>
+    <div class="origen-text" data-reveal="right">
+      <h2>Desde los 12 años, electricista.</h2>
+      <p>Cada verano, jornada de 6 AM a 3 PM. Lunes a viernes. He sudado dinero de verdad.</p>
+      <p><strong>Sé qué vale ganar un euro.</strong> Sé qué cuesta el tiempo. Sé qué significa elegir entre dinero y futuro.</p>
+      <p class="origen-punch">Por eso construyo automatización: para que otros no tengan que hacer esa elección.</p>
     </div>
   </div>
 </section>
