@@ -1213,6 +1213,9 @@
     .caso-card{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:26px}
     .caso-card h3{margin-bottom:4px}
     .caso-tag{color:var(--purple);font-weight:600;font-size:.85rem;margin-bottom:12px}
+    .caso-datos{list-style:none;margin:10px 0 0;display:grid;gap:6px;font-size:.92rem;color:var(--muted)}
+    .caso-datos li{padding-left:22px;position:relative}
+    .caso-datos li::before{content:"✓";position:absolute;left:0;color:var(--purple);font-weight:800}
     .caso-card a{color:var(--blue);font-weight:600;display:inline-block;margin-top:10px}
   </style>
 </head>
@@ -1451,13 +1454,15 @@
       <article class="caso-card" data-reveal data-delay="1">
         <h3>Instalaciones Eléctricas Carrillo</h3>
         <p class="caso-tag">Automatización · App + bot de Telegram</p>
-        <p>Los partes de obra se registran desde el móvil, el jefe recibe avisos de partes nuevos o editados, los datos se guardan en hojas organizadas por cliente y cada noche se hace una copia de seguridad automática. El acceso está protegido por roles: cada persona ve solo lo que le toca.</p>
+        <p>Antes, los partes de obra se apuntaban a mano. Ahora el electricista escribe un mensaje a un bot de Telegram, como hablaría con un compañero, y un agente de IA lo convierte en un parte ordenado. El jefe recibe un aviso en el móvil y un resumen cada tarde, y puede fotografiar una factura para que la IA calcule cuánto se ha ganado de verdad.</p>
+        <ul class="caso-datos"><li>Cada persona ve solo lo que le toca (jefe, electricistas, alumno)</li><li>Los datos viven en el Google Drive del propio dueño, sin licencias mensuales</li></ul>
         <a href="https://one-agency.es/casos/automatizacion-empresa-electricidad-ia/" target="_blank" rel="noopener">Ver el caso completo →</a>
       </article>
       <article class="caso-card" data-reveal data-delay="2">
         <h3>FishZone — pesca en Andalucía</h3>
         <p class="caso-tag">Marca · Web · SEO</p>
-        <p>Marca y web propia sobre pesca deportiva en Andalucía, con una biblioteca propia de guías y artículos y un SEO local construido desde cero. La normativa de pesca se contrastó con la orden oficial de la Junta antes de publicar.</p>
+        <p>De tres aficionados sin empresa a una marca de pesca con web propia: logotipo, identidad visual, buscador de embalses a medida y 22 guías. La normativa de pesca se contrastó con la orden oficial de la Junta antes de publicar.</p>
+        <ul class="caso-datos"><li>Lighthouse: 100 en SEO; el contenido principal carga en 1,4 s en un móvil lento</li><li>30 páginas indexables, 22 de ellas guías</li><li>~8.000 apariciones al mes en Google (dato aportado por el propio proyecto)</li></ul>
         <a href="https://one-agency.es/casos/marca-y-web-de-pesca-fishzone/" target="_blank" rel="noopener">Ver el caso completo →</a>
       </article>
     </div>
