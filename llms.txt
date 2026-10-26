@@ -1,0 +1,22 @@
+# Ángel Carrillo — Automatización con IA para empresas
+
+> Ángel Carrillo es el fundador de O.N.E Agency, con sede en Santaella (Córdoba, España). Ayuda a pymes y autónomos a ahorrar tiempo con inteligencia artificial: chatbots y asistentes por WhatsApp, automatización de tareas repetitivas, integración de herramientas y lectura automática de facturas y documentos. Ofrece un diagnóstico gratuito de 30 minutos.
+
+## Datos clave
+- Nombre: Ángel Carrillo
+- Empresa: O.N.E Agency (https://one-agency.es)
+- Ubicación: Santaella, Córdoba, España
+- Idioma: español
+- Contacto: angel@one-agency.es · Instagram @_anlg11
+- Oferta de entrada: diagnóstico gratuito de 30 minutos, sin compromiso
+
+## Servicios
+- [Chatbot con IA para tu empresa y tu WhatsApp](https://angelcarrillo.es/servicios/chatbots-ia-whatsapp/): Asistente virtual 24/7 por WhatsApp y web. Asistente virtual con IA que responde dudas, agenda citas y cualifica clientes por WhatsApp y web, 24/7. Implantación para pymes en Córdoba y toda España.
+- [Automatización de tareas repetitivas con IA para pymes](https://angelcarrillo.es/servicios/automatizacion-tareas-pymes/): Menos trabajo manual, menos errores. Automatizo emails, formularios, seguimientos y actualizaciones de datos en tu pyme para que tu equipo ahorre horas cada semana. Diagnóstico gratuito de 30 min.
+- [Integración de herramientas: que tus aplicaciones hablen entre sí](https://angelcarrillo.es/servicios/integraciones-herramientas/): Todo conectado, sin duplicados. Conecto tu tienda online, CRM, email, contabilidad y atención al cliente para que compartan datos automáticamente. Integraciones a medida para pymes.
+- [Automatizar facturas y documentos con IA](https://angelcarrillo.es/servicios/automatizar-facturas-ia/): Extracción de datos sin teclear. La IA lee tus facturas, contratos y formularios, extrae los datos y los guarda donde toca. Menos picar datos a mano, menos errores. Para pymes y autónomos.
+
+## Páginas principales
+- [Inicio](https://angelcarrillo.es/): quién es Ángel, su historia, la agencia y preguntas frecuentes
+- [Servicios](https://angelcarrillo.es/servicios/): índice de servicios
+- [Mapa del sitio](https://angelcarrillo.es/sitemap.xml)
