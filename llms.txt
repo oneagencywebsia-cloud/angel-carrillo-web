@@ -1,6 +1,6 @@
 # Ángel Carrillo — Automatización con IA para empresas
 
-> Ángel Carrillo es el fundador de O.N.E Agency, con sede en Santaella (Córdoba, España). Ayuda a pymes y autónomos a ahorrar tiempo con inteligencia artificial: chatbots y asistentes por WhatsApp, automatización de tareas repetitivas, integración de herramientas y lectura automática de facturas y documentos. Ofrece un diagnóstico gratuito de 30 minutos.
+> Ángel Carrillo es el fundador de O.N.E Agency, con sede en Santaella (Córdoba, España). Ayuda a negocios locales de Córdoba y Andalucía, y a pymes de toda España, a ahorrar tiempo con inteligencia artificial: chatbots y asistentes por WhatsApp, automatización de tareas repetitivas, integración de herramientas y lectura automática de facturas y documentos. Ofrece un diagnóstico gratuito de 30 minutos.
 
 ## Datos clave
 - Nombre: Ángel Carrillo

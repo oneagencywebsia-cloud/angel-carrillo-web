@@ -7,8 +7,8 @@
   <script>try{if(sessionStorage.getItem('iv'))document.documentElement.classList.add('skip-intro')}catch(e){}</script>
 
   <!-- ── SEO PRIMARY ── -->
-  <title>Ángel Carrillo | Automatización con IA para Empresas — Córdoba</title>
-  <meta name="description" content="Con 15 años fundé O.N.E Agency. Automatizo pymes con IA: chatbots, tareas repetitivas e integraciones. Diagnóstico gratis de 30 min. Córdoba, España." />
+  <title>Ángel Carrillo | Automatización con IA para negocios de Córdoba y Andalucía</title>
+  <meta name="description" content="Automatizo con IA el papeleo, los mensajes y las facturas de tu negocio en Córdoba y Andalucía: chatbots de WhatsApp, tareas repetitivas e integraciones. Diagnóstico gratis de 30 min." />
   <meta name="author" content="Ángel Carrillo" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://angelcarrillo.es/" />
@@ -17,7 +17,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://angelcarrillo.es/" />
   <meta property="og:title" content="Ángel Carrillo — Automatización con IA para tu empresa" />
-  <meta property="og:description" content="Fundador de O.N.E Agency. 15 años. Implanto IA en tu negocio en menos de 72h. Diagnóstico gratuito." />
+  <meta property="og:description" content="Automatizo con IA el papeleo y los mensajes de tu negocio. Casos reales en producción. Diagnóstico gratuito de 30 minutos." />
   <meta property="og:image" content="https://angelcarrillo.es/assets/og-image.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
@@ -27,7 +27,7 @@
   <!-- ── TWITTER CARD ── -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Ángel Carrillo — IA & Automatización" />
-  <meta name="twitter:description" content="15 años. Fundador de O.N.E Agency. Automato empresas con IA en menos de 72h." />
+  <meta name="twitter:description" content="Automatizo el papeleo y los mensajes de tu negocio con IA. Diagnóstico gratis de 30 min." />
   <meta name="twitter:image" content="https://angelcarrillo.es/assets/og-image.jpg" />
   <meta name="twitter:creator" content="@_anlg11" />
 
@@ -53,7 +53,7 @@
         "jobTitle": "CEO & Fundador",
         "mainEntityOfPage": { "@id": "https://angelcarrillo.es/#website" },
         "worksFor": { "@id": "https://angelcarrillo.es/#org" },
-        "description": "Fundador de O.N.E Agency. Especialista en automatización con IA para empresas y pymes. 15 años. Córdoba, España.",
+        "description": "Fundador de O.N.E Agency. Automatización con IA para negocios locales de Córdoba y Andalucía y pymes de toda España. Electricista cada verano desde los 12 años.",
         "address": { "@type": "PostalAddress", "addressLocality": "Santaella", "addressRegion": "Córdoba", "addressCountry": "ES" },
         "sameAs": [
           "https://www.instagram.com/_anlg11",
@@ -90,12 +90,17 @@
           {
             "@type": "Question",
             "name": "¿Cuánto se tarda en implantar una automatización?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Una automatización típica queda funcionando en unas 72 horas desde el diagnóstico. Los proyectos más grandes se entregan por fases para que veas resultados desde la primera semana." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Depende de lo que se automatice. Una automatización sencilla puede estar funcionando en pocos días; los proyectos más grandes se entregan por fases. En el diagnóstico gratuito de 30 minutos te doy un plazo concreto para tu caso." }
           },
           {
             "@type": "Question",
             "name": "¿Cuánto cuesta automatizar mi negocio?",
             "acceptedAnswer": { "@type": "Answer", "text": "El diagnóstico de 30 minutos es gratis y sin compromiso. Después recibes un presupuesto cerrado según el alcance, sin permanencias ni sorpresas." }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Con 15 años puedes trabajar con empresas?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Lo importante es el resultado, no la edad: puedes ver casos reales en producción y empiezas con un diagnóstico gratuito de 30 minutos, así ves lo que te propongo antes de comprometerte con nada." }
           },
           {
             "@type": "Question",
@@ -1190,6 +1195,25 @@
       border-radius: 0 0 8px 0; font-weight: 600; text-decoration: none;
     }
     .skip-link:focus { left: 0; }
+
+    /* ── Secciones de conversión ── */
+    #dolor,#proceso,#casos{padding-top:90px;padding-bottom:90px}
+    .dolor-list{list-style:none;max-width:760px;margin:28px auto 0;display:grid;gap:12px}
+    .dolor-list li{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px 18px 16px 50px;position:relative;color:var(--text)}
+    .dolor-list li::before{content:"✗";position:absolute;left:18px;top:14px;color:var(--purple);font-weight:800}
+    .dolor-cierre{max-width:760px;margin:24px auto 0;text-align:center;font-size:1.1rem;color:var(--muted)}
+    .dolor-cierre strong{color:var(--text)}
+    .svc-link{display:block;text-decoration:none;color:inherit}
+    .svc-link:hover{border-color:var(--border2)}
+    .svc-more{display:inline-block;margin-top:14px;color:var(--blue);font-weight:600;font-size:.92rem}
+    .proceso-list{max-width:760px;margin:28px auto 0;display:grid;gap:14px;counter-reset:p;list-style:none}
+    .proceso-list li{counter-increment:p;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:18px 20px 18px 62px;position:relative}
+    .proceso-list li::before{content:counter(p);position:absolute;left:18px;top:16px;width:30px;height:30px;border-radius:50%;background:linear-gradient(135deg,var(--blue),var(--purple));color:#fff;font-weight:700;display:grid;place-items:center}
+    .casos-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px;margin-top:28px}
+    .caso-card{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:26px}
+    .caso-card h3{margin-bottom:4px}
+    .caso-tag{color:var(--purple);font-weight:600;font-size:.85rem;margin-bottom:12px}
+    .caso-card a{color:var(--blue);font-weight:600;display:inline-block;margin-top:10px}
   </style>
 </head>
 <body>
@@ -1227,11 +1251,12 @@
   <a href="#hero" class="nav-logo">Ángel <span>Carrillo</span></a>
   <ul class="nav-links">
     <li><a href="#nosotros">Mi historia</a></li>
-    <li><a href="#servicios">Lo que hago</a></li>
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#casos">Casos</a></li>
     <li><a href="#agencia">Mi agencia</a></li>
     <li><a href="#contacto">Contacto</a></li>
   </ul>
-  <a href="#contacto" class="nav-cta">Hablemos →</a>
+  <a href="#contacto" class="nav-cta">Diagnóstico gratis →</a>
   <button class="nav-burger" id="nav-burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-menu">
     <span></span><span></span><span></span>
   </button>
@@ -1241,7 +1266,8 @@
 <!-- MOBILE MENU -->
 <div id="mobile-menu" role="dialog" aria-modal="true" aria-label="Menú de navegación" inert>
   <a href="#nosotros"  class="mobile-nav-link">Mi historia</a>
-  <a href="#servicios" class="mobile-nav-link">Lo que hago</a>
+  <a href="#servicios" class="mobile-nav-link">Servicios</a>
+  <a href="#casos" class="mobile-nav-link">Casos</a>
   <a href="#agencia"   class="mobile-nav-link">Mi agencia</a>
   <div class="mobile-menu-line"></div>
   <a href="#contacto"  class="mobile-nav-link">Contacto</a>
@@ -1254,27 +1280,25 @@
 <section id="hero" style="padding-top:120px;padding-bottom:80px;">
   <canvas id="hero-canvas"></canvas>
   <div class="hero-text">
-    <div class="hero-badge" data-reveal data-delay="1"><span class="age-pill">15 años</span> Córdoba · Builder · Estudiante</div>
-    <h1 data-reveal data-delay="2">Soy Ángel.<br /><span>Automatizo empresas con IA.</span></h1>
-    <p class="hero-sub" data-reveal data-delay="3">
-      Tengo 15 años y una obsesión: que la tecnología trabaje para las personas, no al revés. Ayudo a pymes de Córdoba y de toda España a automatizar su negocio con IA. Fundé O.N.E Agency para demostrarlo.
-    </p>
+    <div class="hero-badge" data-reveal data-delay="1"><span class="age-pill">Córdoba</span> Automatización con IA para negocios locales</div>
+    <h1 data-reveal data-delay="2">Tu negocio pierde horas en papeleo y mensajes.<br /><span>Yo las automatizo con IA.</span></h1>
+    <p class="hero-sub" data-reveal data-delay="3">Soy Ángel, tengo 15 años y he sido electricista cada verano desde los 12. Sé lo que vale cada hora de un negocio que vive de sus manos. Monto asistentes de WhatsApp y automatismos con IA para negocios de Córdoba y Andalucía, para que recuperes ese tiempo.</p>
     <div class="hero-actions" data-reveal data-delay="4">
-      <a href="#nosotros" class="btn-primary">Mi historia →</a>
-      <a href="#contacto" class="btn-ghost">Hablemos</a>
+      <a href="#contacto" class="btn-primary">Pide tu diagnóstico gratis (30 min) →</a>
+      <a href="#casos" class="btn-ghost">Ver casos reales</a>
     </div>
     <div class="hero-stats" data-reveal data-delay="5">
       <div class="stat-item">
-        <span class="stat-num">15</span>
-        <span class="stat-label">años, fundador</span>
+        <span class="stat-num">2</span>
+        <span class="stat-label">sistemas reales en uso</span>
       </div>
       <div class="stat-item">
-        <span class="stat-num">72h</span>
-        <span class="stat-label">de implementación</span>
+        <span class="stat-num">30′</span>
+        <span class="stat-label">diagnóstico gratis</span>
       </div>
       <div class="stat-item">
-        <span class="stat-num">∞</span>
-        <span class="stat-label">hambre de crecer</span>
+        <span class="stat-num">&lt;24h</span>
+        <span class="stat-label">en responderte</span>
       </div>
     </div>
   </div>
@@ -1336,9 +1360,9 @@
   <div class="section-inner manifesto-inner">
     <blockquote class="manifesto-quote" data-reveal>
       <span class="manifesto-mark">"</span>
-      Con 15 años monté una agencia de automatización.<br />
-      No porque sea el más listo —<br />
-      sino porque nadie me dijo que no podía.
+      Tengo 15 años, así que no te voy a vender humo.<br />
+      Te enseño primero lo que puedo hacer por tu negocio,<br />
+      gratis, y decides tú.
       <span class="manifesto-mark">"</span>
     </blockquote>
     <div class="manifesto-author" data-reveal data-delay="2">
@@ -1355,74 +1379,88 @@
 </section>
 
 <!-- LO QUE HAGO -->
+<section id="dolor">
+  <div class="section-inner">
+    <div class="section-label" data-reveal>🔎 ¿Te suena?</div>
+    <h2 data-reveal data-delay="1">Si te pasa esto, <span>estás regalando tiempo</span></h2>
+    <ul class="dolor-list" data-reveal data-delay="2">
+      <li>Contestas WhatsApps de clientes a las diez de la noche, o el cliente se va a otro porque tardaste.</li>
+      <li>Pasas facturas, albaranes o pedidos a mano a un Excel o a tu programa de contabilidad.</li>
+      <li>Presupuestos que mandaste y nunca seguiste, porque no te da la vida.</li>
+      <li>Los mismos datos tecleados en tres sitios distintos, y nunca coinciden.</li>
+      <li>Te enteras tarde de lo que pasa en tu negocio porque nadie te hace un resumen.</li>
+    </ul>
+    <p class="dolor-cierre" data-reveal data-delay="3">Si te suena más de una, hay trabajo que una máquina puede hacer por ti. <strong>En 30 minutos te digo cuál y cuánto tiempo te devolvería.</strong></p>
+    <p style="text-align:center;margin-top:22px;"><a href="#contacto" class="btn-primary">Quiero mi diagnóstico gratis →</a></p>
+  </div>
+</section>
+
 <section id="servicios">
   <div class="section-inner">
-    <div class="section-label" data-reveal>🛠 Lo que hago</div>
-    <h2 data-reveal data-delay="1">En qué puedo <span>ayudar a tu empresa</span></h2>
-    <p class="section-sub" data-reveal data-delay="2">No soy una agencia de cien personas. Soy yo, aplicando la tecnología correcta donde más duele en tu negocio.</p>
+    <div class="section-label" data-reveal>🛠 Por dónde empezar</div>
+    <h2 data-reveal data-delay="1">Elige el problema que <span>más te duele</span></h2>
+    <p class="section-sub" data-reveal data-delay="2">No hace falta automatizarlo todo. Empezamos por lo que más tiempo te quita y crecemos desde ahí.</p>
     <div class="services-grid">
-      <div class="service-card" data-reveal data-delay="1">
-        <div class="service-icon" aria-hidden="true">⚙️</div>
-        <h3>Adiós a las tareas repetitivas</h3>
-        <p>Todo lo que tu equipo hace una y otra vez — emails, formularios, actualizaciones — lo hacemos automático. Tu equipo se enfoca en lo que de verdad importa.</p>
-        <div class="service-tags">
-          <span class="tag">Sin errores humanos</span>
-          <span class="tag">Disponible 24/7</span>
-          <span class="tag">Resultados inmediatos</span>
-        </div>
-      </div>
-      <div class="service-card" data-reveal data-delay="2">
+      <a class="service-card svc-link" href="/servicios/chatbots-ia-whatsapp/" data-reveal data-delay="1">
         <div class="service-icon" aria-hidden="true">🤖</div>
-        <h3>Atiende clientes aunque estés dormido</h3>
-        <p>Un asistente virtual inteligente que responde dudas, agenda citas y resuelve consultas por WhatsApp o tu web — las 24 horas, los 7 días de la semana.</p>
-        <div class="service-tags">
-          <span class="tag">WhatsApp</span>
-          <span class="tag">Web Chat</span>
-          <span class="tag">Sin esperas</span>
-        </div>
-      </div>
-      <div class="service-card" data-reveal data-delay="3">
-        <div class="service-icon" aria-hidden="true">📊</div>
-        <h3>Sabe qué funciona en tu negocio</h3>
-        <p>Mostramos en una pantalla simple qué está vendiendo, qué no y por qué. Sin necesidad de ser matemático ni experto en datos.</p>
-        <div class="service-tags">
-          <span class="tag">Informes automáticos</span>
-          <span class="tag">Alertas clave</span>
-          <span class="tag">Fácil de entender</span>
-        </div>
-      </div>
-      <div class="service-card" data-reveal data-delay="4">
-        <div class="service-icon" aria-hidden="true">📣</div>
-        <h3>Consigue clientes mientras trabajas</h3>
-        <p>Enviamos emails de seguimiento, publicamos en redes sociales y contactamos a tus leads de forma automática. Tú solo cierras la venta.</p>
-        <div class="service-tags">
-          <span class="tag">Emails automáticos</span>
-          <span class="tag">Redes sociales</span>
-          <span class="tag">Más ventas</span>
-        </div>
-      </div>
-      <div class="service-card" data-reveal data-delay="5">
+        <h3>Clientes que escriben a todas horas</h3>
+        <p>Un asistente con IA responde dudas, agenda citas y te pasa solo los clientes que merecen tu tiempo, por WhatsApp o desde tu web.</p>
+        <span class="svc-more">Ver cómo funciona →</span>
+      </a>
+      <a class="service-card svc-link" href="/servicios/automatizacion-tareas-pymes/" data-reveal data-delay="2">
+        <div class="service-icon" aria-hidden="true">⚙️</div>
+        <h3>Tareas repetitivas que se comen el día</h3>
+        <p>Emails de seguimiento, avisos, informes y actualizaciones que se hacen solos. Tu equipo se queda con lo que de verdad importa.</p>
+        <span class="svc-more">Ver cómo funciona →</span>
+      </a>
+      <a class="service-card svc-link" href="/servicios/automatizar-facturas-ia/" data-reveal data-delay="3">
         <div class="service-icon" aria-hidden="true">📄</div>
-        <h3>Olvídate de picar datos a mano</h3>
-        <p>La IA lee tus facturas, contratos y formularios, extrae la información importante y la guarda donde toca. Sin tocar un teclado.</p>
-        <div class="service-tags">
-          <span class="tag">Facturas</span>
-          <span class="tag">Contratos</span>
-          <span class="tag">Cero errores</span>
-        </div>
-      </div>
-      <div class="service-card" data-reveal data-delay="6">
+        <h3>Facturas y papeles a mano</h3>
+        <p>La IA lee tus facturas, albaranes y formularios, extrae los datos y los guarda donde toca, con revisión de lo dudoso.</p>
+        <span class="svc-more">Ver cómo funciona →</span>
+      </a>
+      <a class="service-card svc-link" href="/servicios/integraciones-herramientas/" data-reveal data-delay="4">
         <div class="service-icon" aria-hidden="true">🔗</div>
-        <h3>Que tus herramientas hablen entre sí</h3>
-        <p>Conectamos tu tienda online, tu email, tu contabilidad y tu atención al cliente para que funcionen juntos de forma coordinada y automática.</p>
-        <div class="service-tags">
-          <span class="tag">Todo conectado</span>
-          <span class="tag">Sin duplicados</span>
-          <span class="tag">Ahorro de tiempo</span>
-        </div>
-      </div>
+        <h3>Herramientas que no se hablan</h3>
+        <p>Conecto tu tienda, email, calendario y contabilidad para que los datos viajen solos y dejes de duplicar trabajo.</p>
+        <span class="svc-more">Ver cómo funciona →</span>
+      </a>
     </div>
-    <p class="section-sub" style="text-align:center;margin-top:28px;"><a href="/servicios/">Ver todos los servicios en detalle →</a></p>
+  </div>
+</section>
+
+<section id="proceso">
+  <div class="section-inner">
+    <div class="section-label" data-reveal>🧭 Cómo funciona</div>
+    <h2 data-reveal data-delay="1">Tres pasos, <span>sin riesgo para ti</span></h2>
+    <ol class="proceso-list" data-reveal data-delay="2">
+      <li><strong>Hablamos 30 minutos.</strong> Me cuentas cómo trabajas y dónde pierdes tiempo. Es gratis y no te comprometes a nada.</li>
+      <li><strong>Te digo qué automatizar y qué ganarías.</strong> Con un presupuesto cerrado, sin permanencias ni sorpresas. Si no veo nada que merezca la pena, te lo digo.</li>
+      <li><strong>Lo monto y lo ves funcionando.</strong> Te lo explico de forma clara y queda documentado para que entiendas qué hace en cada momento.</li>
+    </ol>
+    <p style="text-align:center;margin-top:22px;"><a href="#contacto" class="btn-primary">Empezar por la llamada gratis →</a></p>
+  </div>
+</section>
+
+<section id="casos">
+  <div class="section-inner">
+    <div class="section-label" data-reveal>✅ Casos reales</div>
+    <h2 data-reveal data-delay="1">No te lo cuento: <span>está funcionando</span></h2>
+    <p class="section-sub" data-reveal data-delay="2">Dos proyectos reales que puedes ver publicados.</p>
+    <div class="casos-grid">
+      <article class="caso-card" data-reveal data-delay="1">
+        <h3>Instalaciones Eléctricas Carrillo</h3>
+        <p class="caso-tag">Automatización · App + bot de Telegram</p>
+        <p>Los partes de obra se registran desde el móvil, el jefe recibe avisos de partes nuevos o editados, los datos se guardan en hojas organizadas por cliente y cada noche se hace una copia de seguridad automática. El acceso está protegido por roles: cada persona ve solo lo que le toca.</p>
+        <a href="https://one-agency.es/casos/automatizacion-empresa-electricidad-ia/" target="_blank" rel="noopener">Ver el caso completo →</a>
+      </article>
+      <article class="caso-card" data-reveal data-delay="2">
+        <h3>FishZone — pesca en Andalucía</h3>
+        <p class="caso-tag">Marca · Web · SEO</p>
+        <p>Marca y web propia sobre pesca deportiva en Andalucía, con una biblioteca propia de guías y artículos y un SEO local construido desde cero. La normativa de pesca se contrastó con la orden oficial de la Junta antes de publicar.</p>
+        <a href="https://one-agency.es/casos/marca-y-web-de-pesca-fishzone/" target="_blank" rel="noopener">Ver el caso completo →</a>
+      </article>
+    </div>
   </div>
 </section>
 
@@ -1441,16 +1479,16 @@
       <div class="agency-right">
         <div class="agency-stat-row">
           <div class="agency-stat" data-reveal data-delay="3">
-            <div class="big" data-count="72" data-suffix="h">72h</div>
-            <p>implementación media</p>
+            <div class="big">2</div>
+            <p>casos reales publicados</p>
           </div>
           <div class="agency-stat" data-reveal data-delay="4">
-            <div class="big" data-count="80" data-suffix="%">80%</div>
-            <p>reducción tareas manuales</p>
+            <div class="big">30′</div>
+            <p>diagnóstico gratis</p>
           </div>
           <div class="agency-stat" data-reveal data-delay="5">
-            <div class="big">3x</div>
-            <p>productividad del equipo</p>
+            <div class="big">1</div>
+            <p>persona: hablas directo conmigo</p>
           </div>
         </div>
         <div class="agency-tools">
@@ -1580,7 +1618,7 @@
       </details>
       <details class="faq-item">
         <summary>¿Cuánto se tarda en implantar una automatización?</summary>
-        <p>Una automatización típica queda funcionando en unas 72 horas desde el diagnóstico. Los proyectos más grandes se entregan por fases para que veas resultados desde la primera semana.</p>
+        <p>Depende de lo que se automatice. Una automatización sencilla puede estar funcionando en pocos días; los proyectos más grandes se entregan por fases. En el diagnóstico gratuito de 30 minutos te doy un plazo concreto para tu caso.</p>
       </details>
       <details class="faq-item">
         <summary>¿Cuánto cuesta automatizar mi negocio?</summary>
@@ -1598,9 +1636,9 @@
 <section id="contacto">
   <div class="section-inner">
     <div class="cta-inner" data-reveal="scale">
-      <div class="section-label" style="justify-content:center;">⚡ Habla conmigo</div>
-      <h2>¿Hablamos <span>tú y yo?</span></h2>
-      <p>30 minutos. Te digo exactamente qué puedo automatizar en tu negocio y cuánto ahorrarías. Sin rodeos, sin presentaciones vacías. Solo resultados.</p>
+      <div class="section-label" style="justify-content:center;">⚡ Diagnóstico gratuito</div>
+      <h2>Reserva tus <span>30 minutos</span></h2>
+      <p>30 minutos. Te digo qué puedo automatizar en tu negocio y cuánto tiempo te devolvería. Si no veo nada que merezca la pena, te lo digo igualmente. Solo puedo llevar unos pocos proyectos a la vez, así que escríbeme hoy y te respondo en menos de 24 horas.</p>
       <div class="cta-perks">
         <span class="cta-perk">Sin compromiso</span>
         <span class="cta-perk">100% gratuito</span>
