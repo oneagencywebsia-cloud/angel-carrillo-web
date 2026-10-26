@@ -1217,6 +1217,17 @@
     .caso-datos li{padding-left:22px;position:relative}
     .caso-datos li::before{content:"✓";position:absolute;left:0;color:var(--purple);font-weight:800}
     .caso-card a{color:var(--blue);font-weight:600;display:inline-block;margin-top:10px}
+    .cambio{margin-top:34px;background:var(--card);border:1px solid var(--border);border-radius:18px;padding:26px}
+    .cambio h3{margin-bottom:16px}
+    .cambio-cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+    .cambio h4{font-size:.85rem;text-transform:uppercase;letter-spacing:.06em;margin-bottom:8px}
+    .cambio-antes h4{color:var(--muted)}.cambio-ahora h4{color:var(--purple)}
+    .cambio ul{list-style:none;display:grid;gap:8px}
+    .cambio li{padding-left:22px;position:relative;font-size:.95rem}
+    .cambio-antes li::before{content:"✗";position:absolute;left:0;color:var(--muted)}
+    .cambio-ahora li::before{content:"✓";position:absolute;left:0;color:var(--purple);font-weight:800}
+    .cambio-nota{margin-top:16px;font-size:.85rem;color:var(--muted)}
+    .cambio-nota a{color:var(--blue)}
   </style>
 </head>
 <body>
@@ -1453,7 +1464,7 @@
     <div class="casos-grid">
       <article class="caso-card" data-reveal data-delay="1">
         <h3>Instalaciones Eléctricas Carrillo</h3>
-        <p class="caso-tag">Automatización · App + bot de Telegram</p>
+        <p class="caso-tag">Cliente real · Automatización · App + bot de Telegram</p>
         <p>Antes, los partes de obra se apuntaban a mano. Ahora el electricista escribe un mensaje a un bot de Telegram, como hablaría con un compañero, y un agente de IA lo convierte en un parte ordenado. El jefe recibe un aviso en el móvil y un resumen cada tarde, y puede fotografiar una factura para que la IA calcule cuánto se ha ganado de verdad.</p>
         <ul class="caso-datos"><li>Cada persona ve solo lo que le toca (jefe, electricistas, alumno)</li><li>Los datos viven en el Google Drive del propio dueño, sin licencias mensuales</li></ul>
         <a href="https://one-agency.es/casos/automatizacion-empresa-electricidad-ia/" target="_blank" rel="noopener">Ver el caso completo →</a>
@@ -1465,6 +1476,29 @@
         <ul class="caso-datos"><li>Lighthouse: 100 en SEO; el contenido principal carga en 1,4 s en un móvil lento</li><li>30 páginas indexables, 22 de ellas guías</li><li>~8.000 apariciones al mes en Google (dato aportado por el propio proyecto)</li></ul>
         <a href="https://one-agency.es/casos/marca-y-web-de-pesca-fishzone/" target="_blank" rel="noopener">Ver el caso completo →</a>
       </article>
+    </div>
+
+    <div class="cambio" data-reveal data-delay="2">
+      <h3>Qué cambió en Instalaciones Carrillo</h3>
+      <div class="cambio-cols">
+        <div class="cambio-antes">
+          <h4>Antes</h4>
+          <ul>
+            <li>Los partes de obra se apuntaban a mano o se intentaban recordar por la noche.</li>
+            <li>Saber qué se había facturado y cobrado era perseguir información.</li>
+            <li>Calcular cuánto se ganaba con cada trabajo, si se hacía, era a mano.</li>
+          </ul>
+        </div>
+        <div class="cambio-ahora">
+          <h4>Ahora</h4>
+          <ul>
+            <li>Un mensaje al bot de Telegram, como hablarías con un compañero, y el parte queda registrado.</li>
+            <li>El jefe recibe un aviso en el móvil y un resumen cada tarde, sin pedirlo.</li>
+            <li>Una foto de la factura y la IA extrae los datos y calcula la ganancia real.</li>
+          </ul>
+        </div>
+      </div>
+      <p class="cambio-nota">Descrito a partir del caso publicado en <a href="https://one-agency.es/casos/automatizacion-empresa-electricidad-ia/" target="_blank" rel="noopener">one-agency.es</a>. Si tu negocio es de oficio (instalaciones, reformas, mantenimiento), el sistema se adapta con el mismo enfoque.</p>
     </div>
   </div>
 </section>
