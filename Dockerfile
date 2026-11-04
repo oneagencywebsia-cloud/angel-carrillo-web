@@ -1,10 +1,11 @@
 FROM nginx:alpine
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY security-headers.conf /etc/nginx/security-headers.conf
-COPY index.html robots.txt sitemap.xml llms.txt favicon.svg apple-touch-icon.png /usr/share/nginx/html/
+COPY index.html sitemap.xml *.txt favicon.svg apple-touch-icon.png /usr/share/nginx/html/
 COPY assets/ /usr/share/nginx/html/assets/
 COPY servicios/ /usr/share/nginx/html/servicios/
 COPY blog/ /usr/share/nginx/html/blog/
 COPY herramientas/ /usr/share/nginx/html/herramientas/
+COPY sobre-angel-carrillo/ /usr/share/nginx/html/sobre-angel-carrillo/
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]

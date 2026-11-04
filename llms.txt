@@ -17,6 +17,10 @@
 - [Automatizar facturas con IA: lectura y gestión de facturas y pedidos](https://angelcarrillo.es/servicios/automatizar-facturas-ia/): Extracción de datos sin teclear. Automatiza la gestión de facturas con IA: lee facturas, albaranes y pedidos en PDF o foto, extrae proveedor, base, IVA y total, y los guarda en tu hoja o contabilidad. Para pymes y autónomos.
 - [Agencia de IA y automatización para negocios de Córdoba](https://angelcarrillo.es/servicios/agencia-ia-cordoba/): Automatización con IA para negocios de Córdoba y provincia. Automatización con IA para negocios de Córdoba y su provincia: asistente de WhatsApp, facturas, citas y tareas repetitivas. Trabajo directo con el fundador. Diagnóstico gratis de 30 min.
 
+## Sobre el autor
+- [Quién es Ángel Carrillo](https://angelcarrillo.es/sobre-angel-carrillo/): perfil, proyectos reales y contacto
+- [Contenido completo en texto plano](https://angelcarrillo.es/llms-full.txt)
+
 ## Blog
 - [Lo que aprendí montando un sistema de partes de obra con IA para una empresa de electricidad](https://angelcarrillo.es/blog/lecciones-sistema-partes-empresa-electricidad/): Cinco lecciones reales de construir una app y un bot de Telegram con IA para una empresa de instalaciones eléctricas de Santaella: qué funcionó, qué falló y qué haría igual en tu negocio.
 - [Cómo medir cuántas horas pierde tu negocio en tareas repetitivas](https://angelcarrillo.es/blog/como-medir-horas-perdidas-tareas-repetitivas/): Método sencillo para calcular cuánto tiempo y dinero se va en tareas repetitivas en tu negocio y decidir qué automatizar primero. Con plantilla y ejemplo.

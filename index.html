@@ -34,83 +34,151 @@
   <!-- ── JSON-LD STRUCTURED DATA ── -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebSite",
-        "@id": "https://angelcarrillo.es/#website",
-        "url": "https://angelcarrillo.es/",
-        "name": "Ángel Carrillo",
-        "inLanguage": "es",
-        "publisher": { "@id": "https://angelcarrillo.es/#person" }
-      },
-      {
-        "@type": "Person",
-        "@id": "https://angelcarrillo.es/#person",
-        "name": "Ángel Carrillo",
-        "url": "https://angelcarrillo.es/",
-        "image": "https://angelcarrillo.es/assets/og-image.jpg",
-        "jobTitle": "CEO & Fundador",
-        "mainEntityOfPage": { "@id": "https://angelcarrillo.es/#website" },
-        "worksFor": { "@id": "https://angelcarrillo.es/#org" },
-        "description": "Fundador de O.N.E Agency. Automatización con IA para negocios locales de Córdoba y Andalucía y pymes de toda España. Electricista cada verano desde los 12 años.",
-        "address": { "@type": "PostalAddress", "addressLocality": "Santaella", "addressRegion": "Córdoba", "addressCountry": "ES" },
-        "sameAs": [
-          "https://www.instagram.com/_anlg11",
-          "https://www.linkedin.com/in/ángel-carrillo-7260013b7/",
-          "https://one-agency.es"
-        ],
-        "knowsAbout": ["Automatización", "Inteligencia Artificial", "Make", "Zapier", "n8n", "WhatsApp API", "Chatbots"]
-      },
-      {
-        "@type": "LocalBusiness",
-        "@id": "https://angelcarrillo.es/#org",
-        "name": "O.N.E Agency",
-        "founder": { "@id": "https://angelcarrillo.es/#person" },
-        "url": "https://one-agency.es",
-        "image": "https://angelcarrillo.es/assets/og-image.jpg",
-        "description": "Agencia de automatización con Inteligencia Artificial para empresas y pymes. Eliminamos tareas repetitivas y escalamos negocios.",
-        "address": { "@type": "PostalAddress", "addressLocality": "Santaella", "addressRegion": "Córdoba", "addressCountry": "ES" },
-        "geo": { "@type": "GeoCoordinates", "latitude": 37.5654, "longitude": -4.8514 },
-        "email": "angel@one-agency.es",
-        "priceRange": "€€",
-        "sameAs": ["https://www.instagram.com/_anlg11"],
-        "serviceArea": { "@type": "Country", "name": "España" },
-        "offers": { "@type": "Offer", "name": "Diagnóstico de automatización gratuito", "price": "0", "priceCurrency": "EUR" }
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://angelcarrillo.es/#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "¿Qué puede automatizar una pyme con IA?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Casi cualquier tarea repetitiva: atención al cliente por WhatsApp, emails de seguimiento, lectura de facturas y documentos, informes automáticos y la conexión entre tus herramientas (CRM, tienda online, contabilidad)." }
-          },
-          {
-            "@type": "Question",
-            "name": "¿Cuánto se tarda en implantar una automatización?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Depende de lo que se automatice. Una automatización sencilla puede estar funcionando en pocos días; los proyectos más grandes se entregan por fases. En el diagnóstico gratuito de 30 minutos te doy un plazo concreto para tu caso." }
-          },
-          {
-            "@type": "Question",
-            "name": "¿Cuánto cuesta automatizar mi negocio?",
-            "acceptedAnswer": { "@type": "Answer", "text": "El diagnóstico de 30 minutos es gratis y sin compromiso. Después recibes un presupuesto cerrado según el alcance, sin permanencias ni sorpresas." }
-          },
-          {
-            "@type": "Question",
-            "name": "¿Con 15 años puedes trabajar con empresas?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Lo importante es el resultado, no la edad: puedes ver casos reales en producción y empiezas con un diagnóstico gratuito de 30 minutos, así ves lo que te propongo antes de comprometerte con nada." }
-          },
-          {
-            "@type": "Question",
-            "name": "¿Trabajas solo en Córdoba?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Trabajo desde Córdoba para toda España. Todo el proceso es remoto: diagnóstico por videollamada, implementación y soporte online." }
-          }
-        ]
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://angelcarrillo.es/#website",
+      "url": "https://angelcarrillo.es/",
+      "name": "Ángel Carrillo",
+      "inLanguage": "es",
+      "publisher": {
+        "@id": "https://angelcarrillo.es/#person"
       }
-    ]
-  }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://angelcarrillo.es/#person",
+      "name": "Ángel Carrillo",
+      "url": "https://angelcarrillo.es/",
+      "image": "https://angelcarrillo.es/assets/og-image.jpg",
+      "jobTitle": "CEO & Fundador",
+      "mainEntityOfPage": {
+        "@id": "https://angelcarrillo.es/sobre-angel-carrillo/#webpage"
+      },
+      "worksFor": {
+        "@id": "https://angelcarrillo.es/#org"
+      },
+      "description": "Fundador de O.N.E Agency. Automatización con IA para negocios locales de Córdoba y Andalucía y pymes de toda España. Electricista cada verano desde los 12 años.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Santaella",
+        "addressRegion": "Córdoba",
+        "addressCountry": "ES"
+      },
+      "sameAs": [
+        "https://fishzone.es",
+        "https://one-agency.es",
+        "https://www.instagram.com/_anlg11",
+        "https://www.linkedin.com/in/%C3%A1ngel-carrillo-7260013b7/"
+      ],
+      "knowsAbout": [
+        "Automatización con inteligencia artificial",
+        "Chatbots y asistentes de WhatsApp",
+        "Lectura automática de facturas con IA",
+        "n8n",
+        "Integración de APIs",
+        "SEO local"
+      ],
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Fundador y especialista en automatización con IA"
+      },
+      "homeLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Santaella",
+          "addressRegion": "Córdoba",
+          "addressCountry": "ES"
+        }
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://angelcarrillo.es/#org",
+      "name": "O.N.E Agency",
+      "founder": {
+        "@id": "https://angelcarrillo.es/#person"
+      },
+      "url": "https://one-agency.es",
+      "image": "https://angelcarrillo.es/assets/og-image.jpg",
+      "description": "Agencia de automatización con Inteligencia Artificial para empresas y pymes. Eliminamos tareas repetitivas y escalamos negocios.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Santaella",
+        "addressRegion": "Córdoba",
+        "addressCountry": "ES"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.5654,
+        "longitude": -4.8514
+      },
+      "email": "angel@one-agency.es",
+      "priceRange": "€€",
+      "sameAs": [
+        "https://www.instagram.com/_anlg11"
+      ],
+      "serviceArea": {
+        "@type": "Country",
+        "name": "España"
+      },
+      "offers": {
+        "@type": "Offer",
+        "name": "Diagnóstico de automatización gratuito",
+        "price": "0",
+        "priceCurrency": "EUR"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://angelcarrillo.es/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Qué puede automatizar una pyme con IA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Casi cualquier tarea repetitiva: atención al cliente por WhatsApp, emails de seguimiento, lectura de facturas y documentos, informes automáticos y la conexión entre tus herramientas (CRM, tienda online, contabilidad)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto se tarda en implantar una automatización?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende de lo que se automatice. Una automatización sencilla puede estar funcionando en pocos días; los proyectos más grandes se entregan por fases. En el diagnóstico gratuito de 30 minutos te doy un plazo concreto para tu caso."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta automatizar mi negocio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El diagnóstico de 30 minutos es gratis y sin compromiso. Después recibes un presupuesto cerrado según el alcance, sin permanencias ni sorpresas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Con 15 años puedes trabajar con empresas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lo importante es el resultado, no la edad: puedes ver casos reales en producción y empiezas con un diagnóstico gratuito de 30 minutos, así ves lo que te propongo antes de comprometerte con nada."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Trabajas solo en Córdoba?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Trabajo desde Córdoba para toda España. Todo el proceso es remoto: diagnóstico por videollamada, implementación y soporte online."
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
 
   <meta name="theme-color" content="#0D0E11" />
@@ -1783,7 +1851,7 @@
       <ul>
         <li><a href="#servicios">Cómo trabajamos</a></li>
         <li><a href="#agencia">Resultados</a></li>
-        <li><a href="#nosotros">Sobre mí</a></li>
+        <li><a href="/sobre-angel-carrillo/">Sobre mí</a></li>
         <li><a href="#contacto">Contacto</a></li>
       </ul>
     </div>

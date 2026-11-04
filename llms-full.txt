@@ -1,0 +1,253 @@
+# Ángel Carrillo: automatización con IA para negocios de Córdoba y Andalucía
+
+Contenido completo del sitio angelcarrillo.es en texto plano para asistentes de IA. Autor: Ángel Carrillo, fundador de O.N.E Agency (Santaella, Córdoba). Última actualización: 2026-11-04.
+
+## Resumen
+Ángel Carrillo, con 15 años, construye sistemas de IA y automatización para negocios locales: asistentes de WhatsApp, lectura automática de facturas, automatización de tareas repetitivas e integraciones. Ofrece un diagnóstico gratuito de 30 minutos. Contacto: angel@one-agency.es, Instagram @_anlg11, formulario en https://one-agency.es/#contacto.
+
+## Chatbot con IA para tu empresa y tu WhatsApp
+URL: https://angelcarrillo.es/servicios/chatbots-ia-whatsapp/
+
+Te monto un asistente que contesta a tus clientes por WhatsApp o desde tu web cuando tú no puedes: resuelve las dudas de siempre, agenda citas y te avisa de lo importante. Lo preparo con la información real de tu negocio y lo conecto a tu agenda para que no se te escape ninguna consulta.
+
+Para quién: Para negocios que reciben todo el rato las mismas preguntas (horarios, precios, disponibilidad, presupuestos) y pierden clientes por contestar tarde: talleres, clínicas, tiendas, instaladores, academias, restauración y servicios.
+
+Cómo trabajo:
+- Diagnóstico: Revisamos qué preguntan tus clientes y qué canales usas hoy (WhatsApp, web, Instagram).
+- Configuración: Entreno el asistente con tus servicios, precios y normas, y defino cuándo debe pasarte la conversación a ti.
+- Conexión: Lo conecto a tu calendario, hoja de cálculo o CRM para agendar y guardar cada lead automáticamente.
+- Ajuste: Reviso las conversaciones reales los primeros días y corrijo respuestas hasta que funcione como tú quieres.
+
+Casos habituales:
+- Responder dudas de horarios, precios y servicios al instante
+- Agendar y confirmar citas sin llamadas
+- Cualificar leads y avisarte solo de los que merecen tu tiempo
+- Derivar a una persona cuando la consulta lo requiere
+
+Preguntas frecuentes:
+- ¿Un chatbot con IA puede responder por WhatsApp Business? Sí. Se conecta a WhatsApp Business mediante la API oficial o un proveedor homologado, de forma que los clientes escriben al mismo número de siempre.
+- ¿Va a responder cosas que no debe? Se limita a la información que le doy de tu negocio y se configura para pasarte la conversación cuando no esté seguro, en lugar de inventar.
+- ¿Cuánto tarda en estar funcionando? Depende del canal y de las integraciones; en un caso sencillo se puede tener una primera versión en pocos días. En el diagnóstico gratuito de 30 minutos te doy un plazo concreto para tu caso.
+- ¿Cuánto cuesta un chatbot para una pyme? Depende del alcance (canales, integraciones, volumen). No publico tarifas cerradas porque cada negocio es distinto; en el diagnóstico te doy un presupuesto claro y sin compromiso.
+
+## Automatización de tareas repetitivas con IA para pymes
+URL: https://angelcarrillo.es/servicios/automatizacion-tareas-pymes/
+
+Si hay trabajo en tu negocio que se repite a diario (copiar datos, mandar emails de seguimiento, rellenar hojas, avisar al equipo), lo convierto en un flujo que se hace solo. Primero miro qué te quita más tiempo, empezamos por ahí y tu equipo se dedica a lo que de verdad aporta.
+
+Para quién: Para pymes y autónomos donde alguien dedica horas cada semana a tareas mecánicas: pasar pedidos de un sitio a otro, contestar formularios, hacer seguimiento de presupuestos o recordar cobros.
+
+Cómo trabajo:
+- Mapa de tareas: Identificamos juntos qué tareas se repiten y cuánto tiempo consumen.
+- Prioridad: Empezamos por la que más ahorro da con menos complejidad.
+- Automatización: Construyo el flujo con herramientas como n8n, conectando tus aplicaciones y añadiendo IA donde aporta.
+- Control: Dejo avisos si algo falla y te explico cómo funciona para que no dependas de mí para entenderlo.
+
+Casos habituales:
+- Emails y mensajes de seguimiento automáticos a clientes y leads
+- Alta de pedidos o clientes en varias herramientas sin duplicar trabajo
+- Informes semanales enviados solos
+- Avisos internos cuando entra una oportunidad o hay un impago
+
+Preguntas frecuentes:
+- ¿Qué tareas de una pyme se pueden automatizar con IA? Cualquier tarea basada en reglas o en leer y escribir texto: seguimientos por email, registro de datos, clasificación de mensajes, generación de informes, recordatorios y avisos.
+- ¿Necesito cambiar las herramientas que ya uso? Normalmente no. Conecto lo que ya tienes (email, hojas de cálculo, CRM, tienda online, contabilidad) para que trabajen juntas.
+- ¿Cuánto tiempo puedo ahorrar? Depende de la tarea y del volumen. En el diagnóstico estimamos horas reales ahorradas por semana antes de que decidas nada.
+- ¿Qué pasa si el automatismo falla? Configuro alertas de error y registros para detectarlo rápido, y te explico cómo revisarlo.
+
+## Integración de herramientas: que tus aplicaciones hablen entre sí
+URL: https://angelcarrillo.es/servicios/integraciones-herramientas/
+
+Conecto las herramientas que ya usas (tienda online, CRM, email, calendario, contabilidad, WhatsApp) para que los datos pasen solos de una a otra. Así no copias y pegas, hay menos errores y tienes un único sitio con la información al día.
+
+Para quién: Para negocios con varias herramientas que no se hablan entre sí y acaban con datos duplicados o desactualizados: tiendas online, agencias, servicios y equipos comerciales.
+
+Cómo trabajo:
+- Inventario: Listamos las herramientas que usas y qué datos tienen que compartir.
+- Diseño: Defino el flujo de datos y qué debe pasar en cada evento (nuevo pedido, nuevo lead, pago recibido).
+- Conexión: Integro mediante APIs, webhooks y automatizaciones, con IA donde hay que interpretar texto.
+- Pruebas: Compruebo con datos reales y documento el resultado para que sea mantenible.
+
+Casos habituales:
+- Pedido de la tienda online que crea la factura y avisa al almacén
+- Lead de un formulario o anuncio que entra en el CRM y dispara un WhatsApp
+- Cita agendada que se sincroniza con calendario y recordatorios
+- Datos de ventas que alimentan un panel de informes
+
+Preguntas frecuentes:
+- ¿Qué es una integración de software? Es una conexión entre dos o más aplicaciones para que intercambien datos automáticamente, normalmente mediante APIs o webhooks.
+- ¿Se puede integrar cualquier herramienta? Si tiene API, webhooks o exportación de datos, casi siempre sí. Si no, se estudian alternativas en el diagnóstico.
+- ¿Es seguro conectar mis datos? Trabajo con credenciales de acceso limitadas, almacenamiento seguro de claves y solo los permisos imprescindibles.
+- ¿Qué diferencia hay con una automatización? La integración conecta sistemas; la automatización añade reglas y acciones sobre esos datos. Normalmente van juntas.
+
+## Automatizar facturas con IA: lectura y gestión de facturas y pedidos
+URL: https://angelcarrillo.es/servicios/automatizar-facturas-ia/
+
+Hago que tus facturas, albaranes o pedidos (en PDF, foto o email) se lean solos: la IA saca proveedor, importe, fecha e IVA y lo apunta en tu hoja, tu contabilidad o tu CRM. Lo dudoso te lo enseña para que lo confirmes. Se acabó teclear dato a dato.
+
+Para quién: Para autónomos, gestorías y pymes que reciben muchas facturas o documentos y pierden horas pasándolos a mano a Excel o a su programa de contabilidad.
+
+Cómo trabajo:
+- Muestras: Reviso ejemplos reales de tus documentos para ver qué formatos manejas.
+- Extracción: Configuro la lectura con IA de los campos que necesitas.
+- Validación: Defino reglas de comprobación y una revisión humana para los casos dudosos.
+- Destino: Guardo los datos en tu hoja, contabilidad o CRM y archivo el documento original.
+
+Casos habituales:
+- Facturas recibidas por email que se registran solas
+- Albaranes y tickets convertidos en datos ordenados
+- Contratos con fechas y cláusulas clave extraídas
+- Formularios en papel o PDF digitalizados automáticamente
+
+Preguntas frecuentes:
+- ¿La IA puede leer facturas en PDF o en foto? Sí. Los modelos actuales leen PDF e imágenes y extraen campos como proveedor, NIF, base, IVA y total, con una revisión de los casos dudosos.
+- ¿Es fiable al 100%? Ningún sistema lo es, por eso incluyo reglas de validación y revisión humana de lo que tenga baja confianza.
+- ¿Se conecta con mi programa de contabilidad? Depende del programa; si tiene API o importación de datos se puede conectar, y si no, se deja en una hoja lista para importar.
+- ¿Qué pasa con la privacidad de los documentos? Se tratan con acceso limitado y cumpliendo el RGPD; en el diagnóstico definimos dónde se procesan y se guardan.
+
+## Agencia de IA y automatización para negocios de Córdoba
+URL: https://angelcarrillo.es/servicios/agencia-ia-cordoba/
+
+Soy Ángel Carrillo, fundador de O.N.E Agency, con base en Santaella (Córdoba). Ayudo a negocios de Córdoba y su provincia a ahorrar tiempo con IA: un asistente que responde por WhatsApp, lectura automática de facturas, citas que se agendan solas y tareas repetitivas que dejan de hacerse a mano. Empiezas con un diagnóstico gratuito de 30 minutos.
+
+Para quién: Negocios locales de Córdoba y su provincia que viven del trato con el cliente y pierden horas en papeleo y mensajes: talleres, instaladores y empresas de oficios, clínicas y centros de estética, comercios, hostelería, academias y despachos.
+
+Cómo trabajo:
+- Charla de 30 minutos: Hablamos por videollamada o por WhatsApp. Me cuentas cómo trabajas y dónde pierdes tiempo.
+- Propuesta clara: Te digo qué automatizar primero, qué ganarías y cuánto costaría, con presupuesto cerrado.
+- Montaje: Lo construyo y lo pruebo con tus datos reales, y te explico cómo funciona.
+- Seguimiento: Reviso cómo va los primeros días y ajusto lo que haga falta.
+
+Casos habituales:
+- Asistente de WhatsApp que responde y agenda citas fuera de horario
+- Facturas y albaranes que se registran solos en tu hoja o contabilidad
+- Avisos y resúmenes automáticos al dueño del negocio
+- Partes de trabajo desde el móvil, como en un caso real de una empresa de electricidad de Santaella
+
+Preguntas frecuentes:
+- ¿Hay agencias de IA y automatización en Córdoba? Sí. Yo trabajo desde Santaella, en la provincia de Córdoba, y me especializo en negocios locales y pymes: asistentes de WhatsApp, lectura de facturas, citas y tareas repetitivas.
+- ¿Trabajas solo con negocios de Córdoba capital? No, atiendo a toda la provincia de Córdoba y a otras zonas de Andalucía. Todo el proceso se puede hacer en remoto.
+- ¿Qué puedo automatizar primero en mi negocio? Lo que más tiempo te quite con menos complejidad: normalmente responder mensajes de clientes, registrar facturas o hacer seguimientos. En el diagnóstico gratuito lo decidimos juntos.
+- ¿Cuánto cuesta y cuánto tarda? Depende del alcance. En el diagnóstico gratuito de 30 minutos te doy un presupuesto cerrado y un plazo concreto para tu caso, sin permanencias.
+
+## Lo que aprendí montando un sistema de partes de obra con IA para una empresa de electricidad
+URL: https://angelcarrillo.es/blog/lecciones-sistema-partes-empresa-electricidad/
+
+Construí para una empresa de instalaciones eléctricas de Santaella (Córdoba) un sistema donde los partes de obra se registran con un mensaje a un bot de Telegram. Lo que más me enseñó no fue la IA, sino cinco cosas básicas: que sea tan fácil como escribir un mensaje, no fiarte de una hoja de cálculo sin pensar en sus límites, separar quién ve qué, avisar bien y no aceptar nunca un fallo silencioso.
+
+### El problema de partida
+En una empresa de instalaciones el trabajo real pasa fuera de la oficina: en la obra, en casa del cliente, subido a una escalera. Quién trabajó, cuántas horas, qué material se usó y si se ha cobrado se apuntaba a mano o se intentaba recordar por la noche. El dueño no tenía una foto real de lo facturado y cobrado sin tener que perseguirla.
+
+### Lección 1: que sea tan fácil como escribir un mensaje
+Nadie con las manos llenas de grasa quiere rellenar un formulario. Por eso el día a día va por Telegram: el electricista escribe como hablaría con un compañero, por ejemplo «Joaquín debajo museo, ángel y pino, de 9 a 11, 2 marcos», y un agente de IA identifica el cliente, los trabajadores, las horas y el material, y lo guarda ordenado. Si falta un dato realmente imprescindible, pregunta; si no, solo confirma. La mejor interfaz es la que la gente ya usa.
+
+### Lección 2: una hoja de cálculo sirve de base de datos, hasta que deja de servir
+Usé Google Sheets como base de datos porque es sencilla, no cuesta mantenimiento y el jefe puede abrirla cuando quiera. El problema llegó con los límites: Google restringe cuántas lecturas se pueden hacer por minuto, y el sistema leía decenas de hojas cada vez que se refrescaba la app. Cuando se superaba la cuota, algunas lecturas fallaban y la app se comportaba de forma rara. La solución fue guardar resultados un tiempo, leer solo lo que ha cambiado y reducir las lecturas. Moraleja: antes de elegir una herramienta, mira sus límites con tu volumen real.
+
+### Lección 3: cada persona ve solo lo que le toca
+El jefe ve todo, incluida la facturación y qué clientes deben dinero. Los electricistas registran y editan sus partes y consultan el catálogo de materiales, pero no ven cuánto se factura a cada cliente. El alumno en prácticas tiene un acceso más limitado que se puede quitar cuando termine. Pensar los roles desde el principio evita problemas después, y protege tanto al negocio como a las personas.
+
+### Lección 4: avisos que llegan y copias que se hacen solas
+Un aviso solo sirve si llega. El jefe recibe una notificación en el móvil cuando se registra un parte y un resumen cada tarde, sin pedirlo. Y como todo depende de unas cuantas piezas conectadas, añadí alertas cuando algo falla y una copia de seguridad nocturna. Un sistema que nadie vigila necesita que se avise solo.
+
+### Lección 5: un fallo silencioso es peor que un fallo ruidoso
+El error que más me enseñó fue este: cuando una lectura fallaba, el sistema descartaba esa hoja sin avisar y la app lo tomaba por la verdad, con lo que parecían desaparecer partes o clientes. Ahora, si una lectura no se completa, se marca como incompleta y la app lo sabe. Es preferible que algo avise de que no está seguro a que enseñe un dato falso con total confianza.
+
+### Qué haría igual en tu negocio
+Empezar por un solo proceso que duela (en este caso, los partes), hacerlo tan simple como un mensaje, pensar los permisos desde el primer día y medir los límites de las herramientas. El resto se construye encima. Si quieres ver el caso completo, está en one-agency.es, y si tu negocio es de oficio, puedo plantearlo contigo en una llamada de 30 minutos.
+
+Preguntas frecuentes:
+- ¿Sirve solo para electricistas? No. Sirve para cualquier oficio de campo con el mismo problema: fontanería, climatización, reformas o mantenimiento. Cambia el vocabulario que aprende la IA y los campos de cada parte, no la arquitectura.
+- ¿Hay que pagar licencias por usuario? No. Es un sistema propio de la empresa, y el resto corre sobre herramientas como Google Sheets, Telegram y n8n que una pyme puede usar sin pagar licencias por usuario.
+
+## Cómo medir cuántas horas pierde tu negocio en tareas repetitivas
+URL: https://angelcarrillo.es/blog/como-medir-horas-perdidas-tareas-repetitivas/
+
+Apunta durante una semana lo que haces más de una vez y cuánto tardas, pásalo a dinero y quédate con lo que sigue reglas claras y datos digitales. Eso es lo que se puede automatizar. Te explico cómo, paso a paso.
+
+### Paso 1: apunta durante una semana
+No intentes recordar. Durante cinco días, anota cada tarea que hagas más de una vez: contestar los mismos mensajes, pasar datos de un sitio a otro, mandar recordatorios, hacer facturas o presupuestos, preparar informes. Basta una libreta o una nota en el móvil con dos datos: qué has hecho y cuánto has tardado.
+
+### Paso 2: pasa las horas a dinero
+Suma el tiempo de cada tarea y multiplícalo por lo que te cuesta una hora de trabajo (tu sueldo o el de tu equipo). Un ejemplo con números inventados solo para ilustrar: si pierdes 5 horas a la semana y tu hora cuesta 20 €, son 100 € a la semana, unos 5.000 € al año. Pon tus propias cifras: el resultado suele sorprender.
+
+### Paso 3: filtra con tres preguntas
+¿Se repite? Si lo haces cada día o cada semana, es candidata.
+¿Sigue reglas claras? Si siempre decides igual ante lo mismo, se puede automatizar. Si exige criterio nuevo cada vez, mejor que lo haga una persona.
+¿Los datos están en formato digital? Emails, hojas de cálculo, formularios o PDF se pueden leer. Un papel manuscrito añade un paso.
+
+### Paso 4: prioriza por ahorro y facilidad
+TareaHoras/semana¿Reglas claras?Prioridad
+Responder dudas repetidas por WhatsApp3SíAlta
+Pasar facturas a Excel2SíAlta
+Presupuestos a medida4NoBaja
+Los números de la tabla son un ejemplo. Empieza por lo que más horas ahorra con menos complejidad y deja lo que exige criterio para después.
+
+### Qué hacer con el resultado
+Con esa lista ya sabes por dónde empezar y cuánto te compensa. Si quieres una segunda opinión, en el diagnóstico gratuito de 30 minutos revisamos tu lista y te digo qué se puede automatizar y qué no merece la pena.
+
+Preguntas frecuentes:
+- ¿Cuánto tiempo hace falta para hacer la medición? Unos 15 minutos para preparar la lista y entre 5 y 10 minutos al día durante una semana para apuntar. Con eso tienes datos reales y no impresiones.
+- ¿Todas las tareas repetitivas se pueden automatizar? No. Se automatizan bien las que siguen reglas claras y trabajan con datos digitales. Las que exigen criterio nuevo cada vez es mejor dejarlas en manos de una persona.
+
+## Qué debe responder un asistente de WhatsApp en un negocio local y qué no
+URL: https://angelcarrillo.es/blog/que-debe-responder-asistente-whatsapp-negocio-local/
+
+Lo repetitivo y objetivo (horarios, ubicación, servicios, citas) que lo conteste el asistente; lo delicado (quejas, urgencias, presupuestos a medida) que lo lleve una persona. Y dile siempre al cliente que está hablando con un asistente.
+
+### Lo que sí debe responder
+Horarios, ubicación y cómo llegar.
+Qué servicios ofreces y para quién.
+Precios que sean fijos y estén publicados.
+Disponibilidad y reserva de citas.
+Estado de un pedido o una gestión, si tiene acceso a esos datos.
+Son preguntas que se repiten cada día y tienen una respuesta clara. Ahí un asistente ahorra tiempo y responde a cualquier hora.
+
+### Lo que debe pasar a una persona
+Quejas y reclamaciones.
+Presupuestos a medida que dependen de ver el trabajo.
+Urgencias (una avería, una fuga, una emergencia).
+Clientes enfadados o con una situación delicada.
+Cualquier cosa que el asistente no sepa con seguridad.
+La regla de oro: ante la duda, que no invente. Mejor un «te paso con Ángel y te responde hoy» que una respuesta equivocada.
+
+### Cuida el trato
+Di desde el primer mensaje que es un asistente virtual, mantén el tono de tu negocio y ofrece siempre una forma de hablar con una persona. Un asistente bien hecho no sustituye el trato cercano, lo libera para que lo dediques a quien de verdad lo necesita.
+
+### Cuida los datos
+Pide solo los datos necesarios para la gestión (por ejemplo, nombre y teléfono para una cita), informa de para qué los usas y no pidas información sensible si no hace falta. Revisa también las condiciones vigentes de WhatsApp Business para empresas antes de poner nada en marcha.
+
+### Cómo empezar
+Empieza con las cinco preguntas que más te repiten, mide cómo responde y ve ampliando. Si quieres montarlo, te explico cómo trabajo un asistente de WhatsApp para negocios o lo vemos en el diagnóstico gratuito de 30 minutos.
+
+Preguntas frecuentes:
+- ¿Un asistente de WhatsApp puede agendar citas? Sí, si se conecta a tu agenda o calendario. El cliente escribe, el asistente propone un hueco y la cita queda registrada y se avisa al negocio.
+- ¿Qué pasa si el asistente no sabe la respuesta? Debe pasarte la conversación en lugar de inventar. Se configura para derivar a una persona cuando no está seguro o cuando el tema es delicado.
+
+## Facturas: ¿Excel, programa de contabilidad o IA? Cuándo usar cada uno
+URL: https://angelcarrillo.es/blog/facturas-en-excel-contabilidad-o-ia/
+
+Con pocas facturas, a mano vale. Con muchas y de formatos distintos, la IA te ahorra horas. Y ni la IA ni Excel sustituyen a tu gestor: solo evitan que alguien teclee cada documento.
+
+### Las tres opciones
+A mano / ExcelPrograma de contabilidadLectura con IA
+Qué haceTú tecleas cada facturaRegistra y organiza la contabilidadLee el documento y extrae los datos solo
+VentajaGratis y sencilloContabilidad ordenada y obligaciones cubiertasQuita el trabajo de teclear
+LímiteLento y propenso a erratasSigue haciendo falta meter los datosNecesita revisar lo dudoso
+
+### Cuándo basta con Excel
+Si recibes unas pocas facturas al mes, teclearlas no te quita tiempo relevante. No merece la pena complicarlo.
+
+### Cuándo compensa la IA
+Cuando recibes muchas facturas, albaranes o pedidos, en formatos distintos y por varios canales (email, WhatsApp, fotos), y alguien dedica horas a pasarlos a mano. La IA lee el documento, extrae proveedor, NIF, fecha, base, IVA y total, comprueba que las cuentas cuadran y deja para revisión solo lo dudoso.
+
+### Lo que la IA no sustituye
+No sustituye a tu gestor ni a tu programa de contabilidad, ni garantiza el cumplimiento de ninguna obligación fiscal. Es una capa previa que deja los datos limpios y ordenados para que lleguen donde tienen que llegar. Por eso incluye comprobaciones automáticas y revisión humana de los casos con baja confianza.
+
+### Siguiente paso
+Si quieres ver cómo se haría en tu caso, mira cómo automatizo la lectura de facturas o cuéntamelo en el diagnóstico gratuito de 30 minutos.
+
+Preguntas frecuentes:
+- ¿La IA puede leer facturas hechas a mano o en foto? Los modelos actuales leen PDF e imágenes, aunque la calidad de la foto influye. Lo que no se lee con claridad se marca para revisión.
+- ¿Necesito cambiar de programa de contabilidad? Normalmente no. La lectura con IA se conecta a lo que ya usas, o deja los datos en una hoja lista para importar.
+
