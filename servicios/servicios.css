@@ -31,3 +31,9 @@ summary{cursor:pointer;font-weight:600}details p{margin:10px 0 0;color:var(--mut
 .foot{border-top:1px solid var(--border);padding:28px 20px;color:var(--muted);font-size:.9rem}.foot div{max-width:1080px;margin:auto}.small{font-size:.8rem}
 @media(max-width:640px){.top ul{display:none}.top nav{justify-content:space-between}.cta{margin-left:auto}body{font-size:16px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+.quiz{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:26px;margin:24px 0}
+.quiz h2{margin:6px 0 16px}.qstep{color:var(--purple);font-weight:700;font-size:.85rem;text-transform:uppercase;letter-spacing:.06em}
+.qopts{display:grid;gap:10px}.qopts button{font:inherit;text-align:left;padding:14px 16px;border-radius:12px;border:1px solid var(--border);background:var(--bg);color:var(--text);cursor:pointer}
+.qopts button:hover,.qopts button:focus-visible{border-color:var(--purple);outline:none;background:var(--card2)}
+.quiz .link{background:none;border:0;color:var(--blue);font:inherit;cursor:pointer;padding:0;text-decoration:underline}

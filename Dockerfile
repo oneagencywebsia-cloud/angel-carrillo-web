@@ -5,5 +5,6 @@ COPY index.html robots.txt sitemap.xml llms.txt favicon.svg apple-touch-icon.png
 COPY assets/ /usr/share/nginx/html/assets/
 COPY servicios/ /usr/share/nginx/html/servicios/
 COPY blog/ /usr/share/nginx/html/blog/
+COPY herramientas/ /usr/share/nginx/html/herramientas/
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
