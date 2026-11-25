@@ -7,5 +7,6 @@ COPY servicios/ /usr/share/nginx/html/servicios/
 COPY blog/ /usr/share/nginx/html/blog/
 COPY herramientas/ /usr/share/nginx/html/herramientas/
 COPY sobre-angel-carrillo/ /usr/share/nginx/html/sobre-angel-carrillo/
+COPY privacidad/ /usr/share/nginx/html/privacidad/
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
