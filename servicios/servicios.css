@@ -38,3 +38,12 @@ summary{cursor:pointer;font-weight:600}details p{margin:10px 0 0;color:var(--mut
 .qopts{display:grid;gap:10px}.qopts button{font:inherit;text-align:left;padding:14px 16px;border-radius:12px;border:1px solid var(--border2);background:var(--card2);color:var(--text);cursor:pointer;transition:transform .15s ease,border-color .15s ease}
 .qopts button:hover,.qopts button:focus-visible{border-color:var(--gold);outline:none;transform:translateX(3px)}
 .quiz .link{background:none;border:0;color:var(--gold);font:inherit;cursor:pointer;padding:0;text-decoration:underline}
+
+/* Menú: nunca parte las etiquetas; en pantallas estrechas pasa a una segunda fila deslizable */
+.logo,.top ul a,.cta{white-space:nowrap}
+@media(max-width:900px){
+.top nav{flex-wrap:wrap;justify-content:space-between;row-gap:4px}
+.top .cta{margin-left:auto}
+.top ul{display:flex;order:3;width:100%;margin:0;gap:20px;overflow-x:auto;scrollbar-width:none;padding:4px 0 6px}
+.top ul::-webkit-scrollbar{display:none}
+}
