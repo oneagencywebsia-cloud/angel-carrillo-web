@@ -1,12 +1,5 @@
 /* Capa de movimiento: fondo vivo, transiciones entre páginas, entradas y microinteracciones. */
 
-/* ── Transición entre páginas (navegadores compatibles) ── */
-@view-transition { navigation: auto; }
-::view-transition-old(root) { animation: vt-out .28s cubic-bezier(.4,0,1,1) both; }
-::view-transition-new(root) { animation: vt-in .55s cubic-bezier(.16,1,.3,1) .08s both; }
-@keyframes vt-out { to { opacity: 0; transform: translateY(-14px) scale(.99); } }
-@keyframes vt-in { from { opacity: 0; transform: translateY(26px); } }
-
 /* ── Fondo ── */
 html { background: #fff; }
 body { background: transparent !important; }
@@ -97,7 +90,6 @@ details[open]::details-content { block-size: auto; }
 
 /* ── Sin movimiento si el usuario lo pide ── */
 @media (prefers-reduced-motion: reduce) {
-  @view-transition { navigation: none; }
   .bgfx i, .hero-card, .w, .cta-inner::before, .cta-box::before { animation: none !important; }
   [data-reveal], .rv, .dolor-list li, .proceso-list li, .caso-datos li { opacity: 1 !important; translate: none !important; filter: none !important; }
   .mark .w::after { display: none; }
