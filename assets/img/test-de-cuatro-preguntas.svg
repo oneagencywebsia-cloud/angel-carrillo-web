@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img" aria-label="Test de cuatro preguntas con respuestas para elegir">
+<title>Test de cuatro preguntas con respuestas para elegir</title>
+<style>
+text{font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif}
+.serif{font-family:'Instrument Serif',Georgia,serif;font-weight:400}
+.float{animation:float 6s ease-in-out infinite}
+.pulse{animation:pulse 3.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.flow{stroke-dasharray:10 150;animation:flow 2.8s linear infinite}
+.dot{animation:dot 1.2s ease-in-out infinite}
+.scan{animation:scan 3.4s ease-in-out infinite alternate}
+.spin{animation:spin 14s linear infinite;transform-box:fill-box;transform-origin:center}
+@keyframes float{50%{transform:translateY(-8px)}}
+@keyframes pulse{50%{transform:scale(1.07)}}
+@keyframes flow{from{stroke-dashoffset:160}to{stroke-dashoffset:0}}
+@keyframes dot{50%{opacity:.25}}
+@keyframes scan{to{transform:translateY(222px)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.flow,.scan{display:none}}
+</style>
+<defs>
+<radialGradient id="a"><stop offset="0" stop-color="#F2B632" stop-opacity=".34"/><stop offset="1" stop-color="#F2B632" stop-opacity="0"/></radialGradient>
+<radialGradient id="b"><stop offset="0" stop-color="#FF9A5A" stop-opacity=".18"/><stop offset="1" stop-color="#FF9A5A" stop-opacity="0"/></radialGradient>
+<pattern id="p" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#14151A" opacity=".07"/></pattern>
+<filter id="sh" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#14151A" flood-opacity=".09"/></filter>
+</defs>
+<rect width="800" height="450" fill="#F8F6F1"/><rect width="800" height="450" fill="url(#p)"/>
+<circle cx="700" cy="40" r="300" fill="url(#a)"/><circle cx="60" cy="440" r="260" fill="url(#b)"/>
+<rect x="140" y="30" width="520" height="390" rx="24" fill="#fff" stroke="rgba(20,21,26,.10)" stroke-width="1.5" filter="url(#sh)"/><rect x="180" y="62" width="98" height="10" rx="5" fill="#F2B632" stroke="none" stroke-width="1.5"/><rect x="294" y="62" width="98" height="10" rx="5" fill="#F2B632" stroke="none" stroke-width="1.5"/><rect x="408" y="62" width="98" height="10" rx="5" fill="rgba(20,21,26,.12)" stroke="none" stroke-width="1.5"/><rect x="522" y="62" width="98" height="10" rx="5" fill="rgba(20,21,26,.12)" stroke="none" stroke-width="1.5"/><text x="180" y="124" font-size="30" font-weight="500" fill="#14151A" text-anchor="start" class="serif">¿Qué te quita más tiempo?</text><rect x="180" y="148" width="440" height="56" rx="14" fill="#F8F6F1" stroke="rgba(20,21,26,.12)" stroke-width="1.5"/><text x="208" y="184" font-size="21" font-weight="600" fill="#14151A" text-anchor="start">Contestar mensajes</text><g class="pulse" style="animation-delay:0s"><rect x="180" y="220" width="440" height="56" rx="14" fill="#F2B632" stroke="#14151A" stroke-width="3"/><text x="208" y="256" font-size="21" font-weight="600" fill="#14151A" text-anchor="start">Pasar facturas</text><g transform="translate(584 248)"><circle r="15" fill="#146C34"/><path d="M-6.75 0.3l4.5 4.8l9 -9.3" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g></g><rect x="180" y="292" width="440" height="56" rx="14" fill="#F8F6F1" stroke="rgba(20,21,26,.12)" stroke-width="1.5"/><text x="208" y="328" font-size="21" font-weight="600" fill="#14151A" text-anchor="start">Hacer seguimientos</text><text x="620" y="392" font-size="19" font-weight="700" fill="#8F5D00" text-anchor="end">Siguiente →</text>
+</svg>

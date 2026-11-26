@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img" aria-label="Un cronómetro y marcas de recuento para medir tareas">
+<title>Un cronómetro y marcas de recuento para medir tareas</title>
+<style>
+text{font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif}
+.serif{font-family:'Instrument Serif',Georgia,serif;font-weight:400}
+.float{animation:float 6s ease-in-out infinite}
+.pulse{animation:pulse 3.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.flow{stroke-dasharray:10 150;animation:flow 2.8s linear infinite}
+.dot{animation:dot 1.2s ease-in-out infinite}
+.scan{animation:scan 3.4s ease-in-out infinite alternate}
+.spin{animation:spin 14s linear infinite;transform-box:fill-box;transform-origin:center}
+@keyframes float{50%{transform:translateY(-8px)}}
+@keyframes pulse{50%{transform:scale(1.07)}}
+@keyframes flow{from{stroke-dashoffset:160}to{stroke-dashoffset:0}}
+@keyframes dot{50%{opacity:.25}}
+@keyframes scan{to{transform:translateY(222px)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.flow,.scan{display:none}}
+</style>
+<defs>
+<radialGradient id="a"><stop offset="0" stop-color="#F2B632" stop-opacity=".34"/><stop offset="1" stop-color="#F2B632" stop-opacity="0"/></radialGradient>
+<radialGradient id="b"><stop offset="0" stop-color="#FF9A5A" stop-opacity=".18"/><stop offset="1" stop-color="#FF9A5A" stop-opacity="0"/></radialGradient>
+<pattern id="p" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#14151A" opacity=".07"/></pattern>
+<filter id="sh" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#14151A" flood-opacity=".09"/></filter>
+</defs>
+<rect width="800" height="450" fill="#F8F6F1"/><rect width="800" height="450" fill="url(#p)"/>
+<circle cx="700" cy="40" r="300" fill="url(#a)"/><circle cx="60" cy="440" r="260" fill="url(#b)"/>
+<rect x="197" y="54" width="46" height="34" rx="8" fill="#14151A" stroke="none" stroke-width="1.5"/><circle cx="220" cy="238" r="152" fill="#fff" filter="url(#sh)" stroke="#14151A" stroke-width="7"/><circle class="spin" cx="220" cy="238" r="118" fill="none" stroke="#F2B632" stroke-width="16" stroke-dasharray="500 242"/><text x="220" y="262" font-size="70" font-weight="500" fill="#14151A" text-anchor="middle" class="serif">12:30</text><rect x="436" y="90" width="300" height="290" rx="18" fill="#fff" stroke="rgba(20,21,26,.10)" stroke-width="1.5" filter="url(#sh)"/><text x="466" y="134" font-size="22" font-weight="700" fill="#14151A" text-anchor="start">Anota cada vez</text><g fill="none" stroke="#14151A" stroke-width="6" stroke-linecap="round"><path d="M480 168v52"/><path d="M498 168v52"/><path d="M516 168v52"/><path d="M534 168v52"/><path d="M470 208l74 -28"/><path d="M610 168v52"/><path d="M628 168v52"/><path d="M646 168v52"/><path d="M664 168v52"/><path d="M600 208l74 -28"/><path d="M480 244v52"/><path d="M498 244v52"/><path d="M516 244v52"/><path d="M534 244v52"/><path d="M470 284l74 -28"/><path d="M610 244v52"/><path d="M628 244v52"/><path d="M646 244v52"/><path d="M664 244v52"/><path d="M600 284l74 -28"/></g><g class="dot" stroke="#8F5D00" stroke-width="6" stroke-linecap="round"><path d="M480 320v34M498 320v34"/></g><text x="780" y="436" font-size="15" font-weight="500" fill="#54565F" text-anchor="end">Ejemplo ilustrativo</text>
+</svg>

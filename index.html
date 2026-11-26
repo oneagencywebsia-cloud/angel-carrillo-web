@@ -18,7 +18,7 @@
   <meta property="og:url" content="https://angelcarrillo.es/" />
   <meta property="og:title" content="Ángel Carrillo — Automatización con IA para tu empresa" />
   <meta property="og:description" content="Automatizo con IA el papeleo y los mensajes de tu negocio. Casos reales en producción. Diagnóstico gratuito de 30 minutos." />
-  <meta property="og:image" content="https://angelcarrillo.es/assets/og-image.jpg" />
+  <meta property="og:image" content="https://angelcarrillo.es/assets/compartir-angel-carrillo.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:locale" content="es_ES" />
@@ -28,7 +28,7 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Ángel Carrillo — IA & Automatización" />
   <meta name="twitter:description" content="Automatizo el papeleo y los mensajes de tu negocio con IA. Diagnóstico gratis de 30 min." />
-  <meta name="twitter:image" content="https://angelcarrillo.es/assets/og-image.jpg" />
+  <meta name="twitter:image" content="https://angelcarrillo.es/assets/compartir-angel-carrillo.png" />
   <meta name="twitter:creator" content="@_anlg11" />
 
   <!-- ── JSON-LD STRUCTURED DATA ── -->
@@ -51,7 +51,7 @@
       "@id": "https://angelcarrillo.es/#person",
       "name": "Ángel Carrillo",
       "url": "https://angelcarrillo.es/",
-      "image": "https://angelcarrillo.es/assets/og-image.jpg",
+      "image": "https://angelcarrillo.es/assets/compartir-angel-carrillo.png",
       "jobTitle": "CEO & Fundador",
       "mainEntityOfPage": {
         "@id": "https://angelcarrillo.es/sobre-angel-carrillo/#webpage"
@@ -102,7 +102,7 @@
         "@id": "https://angelcarrillo.es/#person"
       },
       "url": "https://one-agency.es",
-      "image": "https://angelcarrillo.es/assets/og-image.jpg",
+      "image": "https://angelcarrillo.es/assets/compartir-angel-carrillo.png",
       "description": "Agencia de automatización con Inteligencia Artificial para empresas y pymes. Eliminamos tareas repetitivas y escalamos negocios.",
       "address": {
         "@type": "PostalAddress",
@@ -1411,6 +1411,15 @@
     .path-card .about-floating-ig { color: #14151A; background: var(--sun); }
     @media (prefers-reduced-motion: reduce) { .path::after, .path li { transition: none; transform: none; opacity: 1; } .service-card:hover, .caso-card:hover, .btn-primary:hover, .nav-cta:hover { transform: none; } }
     [data-reveal] { transition-duration: .7s !important; }
+  
+    /* Ilustraciones de las tarjetas */
+    .service-card .card-img + .service-icon { display: none; }
+    @media (min-width: 760px) { .services-grid { grid-template-columns: repeat(2, 1fr); max-width: 960px; margin-left: auto; margin-right: auto; } }
+    #servicios .section-sub a { color: var(--gold); }
+    .service-card, .caso-card { overflow: hidden; }
+    .card-img { display: block; width: 100%; height: auto; aspect-ratio: 16/9; margin-bottom: 20px; border-radius: 12px; border: 1px solid var(--border); transition: scale .6s cubic-bezier(.16,1,.3,1); }
+    .service-card:hover .card-img, .caso-card:hover .card-img { scale: 1.035; }
+    @media (prefers-reduced-motion: reduce) { .card-img { transition: none; scale: 1 !important; } }
   </style>
 <script src="/assets/analytics.js" defer></script>
 <script src="/assets/portal.js"></script>
@@ -1552,24 +1561,28 @@
     <p class="section-sub" data-reveal data-delay="2">No hace falta automatizarlo todo. Empezamos por lo que más tiempo te quita y crecemos desde ahí.</p>
     <div class="services-grid">
       <a class="service-card svc-link" href="/servicios/chatbots-ia-whatsapp/" data-reveal data-delay="1">
+        <img class="card-img" src="/assets/img/mensajes-fuera-de-horario.svg" alt="Mensajes de clientes que llegan de noche y reciben respuesta" width="800" height="450" loading="lazy" decoding="async" />
         <div class="service-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
         <h3>Clientes que escriben a todas horas</h3>
         <p>Un asistente que contesta por WhatsApp cuando tú no puedes: resuelve las dudas de siempre, agenda citas y te avisa solo de lo que importa.</p>
         <span class="svc-more">Ver cómo funciona →</span>
       </a>
       <a class="service-card svc-link" href="/servicios/automatizacion-tareas-pymes/" data-reveal data-delay="2">
+        <img class="card-img" src="/assets/img/lista-tareas-automaticas.svg" alt="Lista de tareas que se van marcando como hechas sin intervención" width="800" height="450" loading="lazy" decoding="async" />
         <div class="service-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m17 2 4 4-4 4"/><path d="M3 11v-1a4 4 0 0 1 4-4h14"/><path d="m7 22-4-4 4-4"/><path d="M21 13v1a4 4 0 0 1-4 4H3"/></svg></div>
         <h3>Tareas repetitivas que se comen el día</h3>
         <p>Emails de seguimiento, avisos, informes y actualizaciones que se hacen solos, para que tu equipo se quede con lo que de verdad importa.</p>
         <span class="svc-more">Ver cómo funciona →</span>
       </a>
       <a class="service-card svc-link" href="/servicios/automatizar-facturas-ia/" data-reveal data-delay="3">
+        <img class="card-img" src="/assets/img/foto-a-albaran.svg" alt="Un albarán en papel fotografiado para que la IA saque sus datos" width="800" height="450" loading="lazy" decoding="async" />
         <div class="service-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/></svg></div>
         <h3>Facturas y papeles a mano</h3>
         <p>La IA lee tus facturas y albaranes, saca los datos y los apunta donde toca. Lo dudoso te lo enseña para que lo confirmes tú.</p>
         <span class="svc-more">Ver cómo funciona →</span>
       </a>
       <a class="service-card svc-link" href="/servicios/integraciones-herramientas/" data-reveal data-delay="4">
+        <img class="card-img" src="/assets/img/piezas-que-encajan.svg" alt="Dos piezas de puzle que encajan, como dos herramientas conectadas" width="800" height="450" loading="lazy" decoding="async" />
         <div class="service-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></div>
         <h3>Herramientas que no se hablan</h3>
         <p>Conecto tu tienda, tu email, tu calendario y tu contabilidad para que los datos pasen solos y dejes de hacer el mismo trabajo dos veces.</p>
@@ -1600,6 +1613,7 @@
     <p class="section-sub" data-reveal data-delay="2">Dos proyectos reales que puedes ver publicados.</p>
     <div class="casos-grid">
       <article class="caso-card" data-reveal data-delay="1">
+        <img class="card-img" src="/assets/img/resumen-diario-movil.svg" alt="El jefe recibe en el móvil un resumen diario del trabajo" width="800" height="450" loading="lazy" decoding="async" />
         <h3>Instalaciones Eléctricas Carrillo</h3>
         <p class="caso-tag">Cliente real · Automatización · App + bot de Telegram</p>
         <p>Antes, los partes de obra se apuntaban a mano. Ahora el electricista escribe un mensaje a un bot de Telegram, como hablaría con un compañero, y un agente de IA lo convierte en un parte ordenado. El jefe recibe un aviso en el móvil y un resumen cada tarde, y puede fotografiar una factura para que la IA calcule cuánto se ha ganado de verdad.</p>
@@ -1607,6 +1621,7 @@
         <a href="https://one-agency.es/casos/automatizacion-empresa-electricidad-ia/" target="_blank" rel="noopener">Ver el caso completo →</a>
       </article>
       <article class="caso-card" data-reveal data-delay="2">
+        <img class="card-img" src="/assets/img/buscador-embalses-pesca.svg" alt="Buscador de embalses para pesca con una lista y un mapa" width="800" height="450" loading="lazy" decoding="async" />
         <h3>FishZone — pesca en Andalucía</h3>
         <p class="caso-tag">Marca · Web · SEO</p>
         <p>De tres aficionados sin empresa a una marca de pesca con web propia: logotipo, identidad visual, buscador de embalses a medida y 22 guías. La normativa de pesca se contrastó con la orden oficial de la Junta antes de publicar.</p>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img" aria-label="Qué contesta el asistente solo y qué consultas pasa a una persona">
+<title>Qué contesta el asistente solo y qué consultas pasa a una persona</title>
+<style>
+text{font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif}
+.serif{font-family:'Instrument Serif',Georgia,serif;font-weight:400}
+.float{animation:float 6s ease-in-out infinite}
+.pulse{animation:pulse 3.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.flow{stroke-dasharray:10 150;animation:flow 2.8s linear infinite}
+.dot{animation:dot 1.2s ease-in-out infinite}
+.scan{animation:scan 3.4s ease-in-out infinite alternate}
+.spin{animation:spin 14s linear infinite;transform-box:fill-box;transform-origin:center}
+@keyframes float{50%{transform:translateY(-8px)}}
+@keyframes pulse{50%{transform:scale(1.07)}}
+@keyframes flow{from{stroke-dashoffset:160}to{stroke-dashoffset:0}}
+@keyframes dot{50%{opacity:.25}}
+@keyframes scan{to{transform:translateY(222px)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.flow,.scan{display:none}}
+</style>
+<defs>
+<radialGradient id="a"><stop offset="0" stop-color="#F2B632" stop-opacity=".34"/><stop offset="1" stop-color="#F2B632" stop-opacity="0"/></radialGradient>
+<radialGradient id="b"><stop offset="0" stop-color="#FF9A5A" stop-opacity=".18"/><stop offset="1" stop-color="#FF9A5A" stop-opacity="0"/></radialGradient>
+<pattern id="p" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#14151A" opacity=".07"/></pattern>
+<filter id="sh" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#14151A" flood-opacity=".09"/></filter>
+</defs>
+<rect width="800" height="450" fill="#F8F6F1"/><rect width="800" height="450" fill="url(#p)"/>
+<circle cx="700" cy="40" r="300" fill="url(#a)"/><circle cx="60" cy="440" r="260" fill="url(#b)"/>
+<rect x="52" y="90" width="300" height="270" rx="26" fill="#fff" stroke="rgba(20,21,26,.10)" stroke-width="1.5" filter="url(#sh)"/><rect x="76" y="118" width="224" height="78" rx="16" fill="#fff" stroke="rgba(20,21,26,.12)" stroke-width="1.5"/><text x="94" y="150" font-size="21" font-weight="500" fill="#14151A" text-anchor="start">¿Qué horario</text><text x="94" y="178" font-size="21" font-weight="500" fill="#14151A" text-anchor="start">tenéis?</text><rect x="76" y="222" width="250" height="78" rx="16" fill="#fff" stroke="rgba(20,21,26,.12)" stroke-width="1.5"/><text x="94" y="254" font-size="21" font-weight="500" fill="#14151A" text-anchor="start">¿Me podéis hacer</text><text x="94" y="282" font-size="21" font-weight="500" fill="#14151A" text-anchor="start">un precio especial?</text><path d="M358 164C395 164 390 118 430 118" fill="none" stroke="rgba(20,21,26,.14)" stroke-width="2.5" stroke-linecap="round"/><path class="flow" d="M358 164C395 164 390 118 430 118" fill="none" stroke="#F2B632" stroke-width="3.5" stroke-linecap="round"/><path d="M358 268C395 268 390 328 430 328" fill="none" stroke="rgba(20,21,26,.14)" stroke-width="2.5" stroke-linecap="round"/><path class="flow" d="M358 268C395 268 390 328 430 328" fill="none" stroke="#F2B632" stroke-width="3.5" stroke-linecap="round"/><text x="432" y="70" font-size="19" font-weight="700" fill="#146C34" text-anchor="start">Responde solo</text><g class="float" style="animation-delay:0s"><rect x="430" y="86" width="316" height="64" rx="16" fill="#fff" stroke="rgba(20,21,26,.10)" stroke-width="1.5" filter="url(#sh)"/><g transform="translate(464 118)"><circle r="16" fill="#146C34"/><path d="M-7.2 0.32l4.8 5.12l9.6 -9.92" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></g><text x="494" y="126" font-size="20" font-weight="600" fill="#14151A" text-anchor="start">Horarios y precios</text></g><g class="float" style="animation-delay:-2s"><rect x="430" y="164" width="316" height="64" rx="16" fill="#fff" stroke="rgba(20,21,26,.10)" stroke-width="1.5" filter="url(#sh)"/><g transform="translate(464 196)"><circle r="16" fill="#146C34"/><path d="M-7.2 0.32l4.8 5.12l9.6 -9.92" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></g><text x="494" y="204" font-size="20" font-weight="600" fill="#14151A" text-anchor="start">Reservar cita</text></g><text x="432" y="280" font-size="19" font-weight="700" fill="#8F5D00" text-anchor="start">Te lo pasa a ti</text><g class="float" style="animation-delay:-4s"><rect x="430" y="296" width="316" height="64" rx="16" fill="#fff" stroke="rgba(20,21,26,.10)" stroke-width="1.5" filter="url(#sh)"/><circle cx="464" cy="328" r="16" fill="#F2B632"/><g transform="translate(454.4 318.4) scale(0.8)" fill="none" stroke="#14151A" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></g><text x="494" y="336" font-size="20" font-weight="600" fill="#14151A" text-anchor="start">Casos especiales</text></g><text x="780" y="436" font-size="15" font-weight="500" fill="#54565F" text-anchor="end">Ejemplo ilustrativo</text>
+</svg>

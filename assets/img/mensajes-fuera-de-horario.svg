@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img" aria-label="Mensajes de clientes que llegan de noche y reciben respuesta">
+<title>Mensajes de clientes que llegan de noche y reciben respuesta</title>
+<style>
+text{font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif}
+.serif{font-family:'Instrument Serif',Georgia,serif;font-weight:400}
+.float{animation:float 6s ease-in-out infinite}
+.pulse{animation:pulse 3.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.flow{stroke-dasharray:10 150;animation:flow 2.8s linear infinite}
+.dot{animation:dot 1.2s ease-in-out infinite}
+.scan{animation:scan 3.4s ease-in-out infinite alternate}
+.spin{animation:spin 14s linear infinite;transform-box:fill-box;transform-origin:center}
+@keyframes float{50%{transform:translateY(-8px)}}
+@keyframes pulse{50%{transform:scale(1.07)}}
+@keyframes flow{from{stroke-dashoffset:160}to{stroke-dashoffset:0}}
+@keyframes dot{50%{opacity:.25}}
+@keyframes scan{to{transform:translateY(222px)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.flow,.scan{display:none}}
+</style>
+<defs>
+<radialGradient id="a"><stop offset="0" stop-color="#F2B632" stop-opacity=".34"/><stop offset="1" stop-color="#F2B632" stop-opacity="0"/></radialGradient>
+<radialGradient id="b"><stop offset="0" stop-color="#FF9A5A" stop-opacity=".18"/><stop offset="1" stop-color="#FF9A5A" stop-opacity="0"/></radialGradient>
+<pattern id="p" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#14151A" opacity=".07"/></pattern>
+<filter id="sh" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#14151A" flood-opacity=".09"/></filter>
+</defs>
+<rect width="800" height="450" fill="#F8F6F1"/><rect width="800" height="450" fill="url(#p)"/>
+<circle cx="700" cy="40" r="300" fill="url(#a)"/><circle cx="60" cy="440" r="260" fill="url(#b)"/>
+<path class="float" d="M190 92a96 96 0 1 0 96 150a80 80 0 0 1-96-150z" fill="#14151A"/><circle class="dot" style="animation-delay:0s" cx="96" cy="96" r="5" fill="#F2B632"/><circle class="dot" style="animation-delay:0.3s" cx="300" cy="84" r="5" fill="#F2B632"/><circle class="dot" style="animation-delay:0.6s" cx="322" cy="330" r="5" fill="#F2B632"/><circle class="dot" style="animation-delay:0.8999999999999999s" cx="110" cy="340" r="5" fill="#F2B632"/><text x="200" y="410" font-size="44" font-weight="500" fill="#14151A" text-anchor="middle" class="serif">22:47</text><g class="float" style="animation-delay:0s"><rect x="390" y="66" width="340" height="76" rx="18" fill="#fff" stroke="rgba(20,21,26,.10)" stroke-width="1.5" filter="url(#sh)"/><circle cx="430" cy="104" r="20" fill="#FDF0CF"/><g transform="translate(418.6 92.6) scale(0.95)" fill="none" stroke="#8F5D00" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></g><text x="464" y="99" font-size="21" font-weight="700" fill="#14151A" text-anchor="start">Cliente</text><text x="464" y="125" font-size="18" font-weight="500" fill="#54565F" text-anchor="start">¿Tenéis hueco mañana?</text></g><g class="float" style="animation-delay:-2s"><rect x="420" y="170" width="340" height="76" rx="18" fill="#fff" stroke="rgba(20,21,26,.10)" stroke-width="1.5" filter="url(#sh)"/><circle cx="460" cy="208" r="20" fill="#FDF0CF"/><g transform="translate(448.6 196.6) scale(0.95)" fill="none" stroke="#8F5D00" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></g><text x="494" y="203" font-size="21" font-weight="700" fill="#14151A" text-anchor="start">Cliente</text><text x="494" y="229" font-size="18" font-weight="500" fill="#54565F" text-anchor="start">¿Cuánto cuesta?</text></g><g class="float" style="animation-delay:-4s"><rect x="390" y="274" width="340" height="76" rx="18" fill="#fff" stroke="rgba(20,21,26,.10)" stroke-width="1.5" filter="url(#sh)"/><circle cx="430" cy="312" r="20" fill="#FDF0CF"/><g transform="translate(418.6 300.6) scale(0.95)" fill="none" stroke="#8F5D00" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></g><text x="464" y="307" font-size="21" font-weight="700" fill="#14151A" text-anchor="start">Cliente</text><text x="464" y="333" font-size="18" font-weight="500" fill="#54565F" text-anchor="start">¿Dónde estáis?</text></g><g transform="translate(728 68)"><circle r="18" fill="#146C34"/><path d="M-8.1 0.36l5.3999999999999995 5.76l10.799999999999999 -11.16" fill="none" stroke="#fff" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></g><g transform="translate(758 172)"><circle r="18" fill="#146C34"/><path d="M-8.1 0.36l5.3999999999999995 5.76l10.799999999999999 -11.16" fill="none" stroke="#fff" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></g><g transform="translate(728 276)"><circle r="18" fill="#146C34"/><path d="M-8.1 0.36l5.3999999999999995 5.76l10.799999999999999 -11.16" fill="none" stroke="#fff" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>

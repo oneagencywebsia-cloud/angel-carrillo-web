@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img" aria-label="Dos piezas de puzle que encajan, como dos herramientas conectadas">
+<title>Dos piezas de puzle que encajan, como dos herramientas conectadas</title>
+<style>
+text{font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif}
+.serif{font-family:'Instrument Serif',Georgia,serif;font-weight:400}
+.float{animation:float 6s ease-in-out infinite}
+.pulse{animation:pulse 3.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.flow{stroke-dasharray:10 150;animation:flow 2.8s linear infinite}
+.dot{animation:dot 1.2s ease-in-out infinite}
+.scan{animation:scan 3.4s ease-in-out infinite alternate}
+.spin{animation:spin 14s linear infinite;transform-box:fill-box;transform-origin:center}
+@keyframes float{50%{transform:translateY(-8px)}}
+@keyframes pulse{50%{transform:scale(1.07)}}
+@keyframes flow{from{stroke-dashoffset:160}to{stroke-dashoffset:0}}
+@keyframes dot{50%{opacity:.25}}
+@keyframes scan{to{transform:translateY(222px)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.flow,.scan{display:none}}
+</style>
+<defs>
+<radialGradient id="a"><stop offset="0" stop-color="#F2B632" stop-opacity=".34"/><stop offset="1" stop-color="#F2B632" stop-opacity="0"/></radialGradient>
+<radialGradient id="b"><stop offset="0" stop-color="#FF9A5A" stop-opacity=".18"/><stop offset="1" stop-color="#FF9A5A" stop-opacity="0"/></radialGradient>
+<pattern id="p" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#14151A" opacity=".07"/></pattern>
+<filter id="sh" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#14151A" flood-opacity=".09"/></filter>
+</defs>
+<rect width="800" height="450" fill="#F8F6F1"/><rect width="800" height="450" fill="url(#p)"/>
+<circle cx="700" cy="40" r="300" fill="url(#a)"/><circle cx="60" cy="440" r="260" fill="url(#b)"/>
+<style>.join{animation:join 4s ease-in-out infinite}@keyframes join{0%,100%{transform:translateX(-34px)}45%,70%{transform:translateX(0)}}</style><path d="M400 125h70a30 30 0 1 1 60 0h70v70a30 30 0 1 1 0 60v70H400v-70a30 30 0 1 0 0-60z" fill="#fff" stroke="#14151A" stroke-width="4" stroke-linejoin="round"/><g class="join"><path d="M200 125h70a30 30 0 1 1 60 0h70v70a30 30 0 1 1 0 60v70H200v-70a30 30 0 1 0 0-60z" fill="#F2B632" stroke="#14151A" stroke-width="4" stroke-linejoin="round"/><text x="300" y="233" font-size="26" font-weight="700" fill="#14151A" text-anchor="middle">Tienda</text></g><text x="500" y="233" font-size="26" font-weight="700" fill="#14151A" text-anchor="middle">Facturas</text>
+</svg>
